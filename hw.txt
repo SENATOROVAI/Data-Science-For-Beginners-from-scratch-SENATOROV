@@ -1,0 +1,206 @@
+выполненные задания переносим в Архив(внизу файла)
+==================================
+Скачай репозиторий с гитхаб:
+1) вставь ссылку в браузер x-github-client://openRepo/ССЫЛКА_НА_РЕПОЗИТОРИЙ
+2) если 1 пункт не сработал, альтернативный путь склонировать репозиторий https://youtu.be/UlgrwL49WOw?si=oCFvBGxgkIxEc2_m&t=149
+
+Открыть репозиторий в VSCODE и ПОТОМ ввести в терминале 3 команды(кнопка на верхней панеле VSCODE называется "Tерминал/Terminal"):
+1) pip install pre-commit
+1.1) pre-commit install
+1.2) pre-commit run --all-files
+
+#1.2 - проверка файлов линтером, выполнять всегда перед отправкой коммита.
+
+Экосистема SenatorovBootcamp:
+1)повторить всё что на ВСЕХ видео, https://t.me/c/1937296927/1111/22333
+==================================
+Документация по линтерам:
+1) Pylint https://pylint.pycqa.org
+2) Pydocstyle https://docs.astral.sh/ruff/rules/#pydocstyle-d
+3) Flake8 https://flake8.pycqa.org/en/latest/index.html
+4) Mypy https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html#variables
+==================================
+VSCODE(установить плагины):
+1)ms-python.pylint
+2)ms-python.flake8
+3)ms-python.mypy-type-checker
+4)matangover.mypy
+5)ms-pyright.pyright
+6)ms-python.black-formatter
+7)njpwerner.autodocstring
+8)njqdev.vscode-python-typehint
+9)KevinRose.vsc-python-indent
+10)mintlify.document
+11)streetsidesoftware.code-spell-checker
+12)eamodio.gitlens
+13)ms-toolsai.jupyter
+14)ms-vsliveshare.vsliveshare
+15)njqdev.vscode-python-typehint
+16)EricSia.pythonsnippets3
+17)ms-pyright.pyright
+18)streetsidesoftware.code-spell-checker-russian
+18.1) Активация русского языка
+
+Commands (use F1 or View -> Command Palette):
+
+    Enable Russian Spell Checker Dictionary
+    Enable Russian Spell Checker Dictionary in Workspace
+18.2) Добавить слово в словарь => наводим на слово и нажимаем ctrl+. потом выбираем add to user settings
+==================================
+Git:
+1)подписаться на коллег https://github.com/orgs/SENATOROVAI/teams/senatorov-team
+2)оформить гитхаб https://www.youtube.com/watch?v=pm17VwdJ6UI
+3)выбор шаблона https://github.com/abhisheknaiidu/awesome-github-profile-readme
+4)https://t.me/c/1937296927/3602/5714 (опционально)
+==================================
+Python:
+1) https://t.me/c/1937296927/1/16676 прочитать только 85-95стр и перейти к пункту 2, ПОСЛЕ ТОГО как пройдёте в пункте 2 тему "функции" в книге "python это просто", можете вернуться к пункту 1 и делать 2 книги параллельно,
+ВНИМАНИЕ! остальные страницы( c 1 по 286) конспектируем ТЕЗИСНО в:
+(Python/clean-code/номер_главы_название_главы.ipynb / example: сhapter_1_error_processing.ipynb)
+1.1) визуализатор python https://pythontutor.com/ (применяем начиная с циклов или функций, чтобы понимать как работает интерпритатор)
+2) !!! ВНИМАНИЕ пушим дополнительно на kaggle книгу питон это просто https://www.kaggle.com/, инструкция https://t.me/c/1937296927/1111/22333
+https://t.me/c/1937296927/1/20759 - python это просто, (скипаем главы 7,9,10,14, когда пройдёте всю книгу вернитесь к 9 главе.
+начиная с 233 страницы, я буду проводить уроки по теорверу в питоне), практические задания в 1 главе 1.5.3 (пункты 1-5 используем псевдокод),
+переписываем ВСЮ КНИГУ в файлы разбитые на главы в Python/made-easy/, ДОЛЖНО БЫТЬ КАК ЗДЕСЬ(https://github.com/nilabhnishchhal/Python-Made-Easy),
+используем статическую типизация/mypy при создании переменных(https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html#variables)
+в конце каждой главы ОБЯЗАТЕЛЬНО отвечаем на вопросы(подглядеть ответы можно на 409стр),
+ответы на вопросы вставляем в маркдаун,
+туда же вставляем картинки, их можно рисовать в пейнте,когда дойдёте до стр 227-245, обязательно сначала,
+переписываем код из первых пяти видео(https://t.me/c/1937296927/1/12260 )сюда Python/oop.ipynb,
+доп материал по ооп - https://t.me/c/1937296927/1/14973 и https://www.dmitrymakarov.ru/python/oop-12/
+!!! ВНИМАНИЕ пушим дополнительно на kaggle книгу питон это просто https://www.kaggle.com/, инструкция https://t.me/c/1937296927/1111/22333
+2.2) Руководство Markdown https://t.me/c/1937296927/832/19307, https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+2.3) Сайт для создания блок схем, понадобится для ответов на вопросы из книги в пункте 2 https://programforyou.ru/block-diagram-redactor
+3)Практический курс по питону https://stepik.org/course/63085/promo(опционально)
+=================================
+Аналитика данных на pandas:
+https://edu.sirius.online/#/course/1750 (проходи если открыт)
+1) https://stepik.org/course/74457/syllabus
+2) https://stepik.org/course/3356/syllabus начать с секции (6. Неделя 2 - Векторы, Матрицы)
+3) https://www.kaggle.com/learn/pandas
+4) https://www.freecodecamp.org/learn/data-analysis-with-python/
+5) https://stepik.org/course/4852/syllabus (только введение)
+ПРАКТИКА В PANDAS: https://leetcode.com/problemset/pandas/?sorting=W3sic29ydE9yZGVyIjoiQVNDRU5ESU5HIiwib3JkZXJCeSI6IkRJRkZJQ1VMVFkifV0%3D
+
+1 задача в день
+https://leetcode.com/studyplan/introduction-to-pandas/
+когда закончишь начни
+https://leetcode.com/studyplan/30-days-of-pandas/
+==================================
+Data Cleaning(Regex):
+1)https://leetcode.com/tag/string-matching/ выполнить изи и попробуй мидл
+2) получить сертификат:  https://stepik.org/course/49442
+2.1) https://www.datacamp.com/tutorial/data-preparation-with-pandas
+2.2) https://www.w3schools.com/python/pandas/pandas_cleaning_wrong_data.asp
+3)https://machinelearningtutorials.org/tutorial-using-pandas-with-regular-expressions-regex/ повторить в ноутбуке
+4)https://kanoki.org/2019/11/12/how-to-use-regex-in-pandas/ повторить в ноутбуке
+5)https://www.geeksforgeeks.org/replace-values-in-pandas-dataframe-using-regex/ повторить в ноутбуке
+6)https://www.kaggle.com/learn/data-cleaning
+7)https://www.dataquest.io/blog/regular-expressions-data-scientists/ повторить в ноутбуке
+==================================
+Data Visual:
+1) https://www.kaggle.com/learn/data-visualization
+2) https://www.kaggle.com/code/prashant111/matplotlib-tutorial-for-beginners
+3) https://www.kaggle.com/code/kanncaa1/seaborn-tutorial-for-beginners
+4) https://www.kaggle.com/code/kanncaa1/plotly-tutorial-for-beginners (опционально)
+5) https://t.me/c/1937296927/832/14284 (rus) прочитать
+6) Tableau https://stepik.org/course/56280/syllabus
+==================================
+SQL:
+1) https://karpov.courses/simulator-sql
+2)https://sql-ex.ru/register.php?Lang=0
+2.1 https://sql-ex.ru/learn_exercises.php
+(ответы http://sql-tutorial.ru/ru/book_exercise_1.html
+схема БД http://sql-tutorial.ru/ru/book_computers_database.html)
+
+3) https://www.kaggle.com/learn/intro-to-sql
+4) https://www.kaggle.com/learn/advanced-sql
+5) https://stepik.org/course/63054/syllabus
+6) https://stepik.org/course/3203/syllabus
+7) https://sql-academy.org/ru/trainer/tasks/1
+==================================
+Практика:
+1) /c/1937296927/ прочитать
+1.1) https://t.me/c/1937296927/832/13290 прочитать
+1.3) https://education.yandex.ru/handbook/data-analysis
+2) https://t.me/c/1937296927/832/16118, берём отсюда ссылки на kaggle и проводим EDA анализ.
+3)contecst по аналитике(опционально)
+https://contest.yandex.ru/contest/28416/enter
+4)A/B(справочник):
+https://education.yandex.ru/journal/kak-provesti-a-b-testirovanie-6-prostykh-shagov
+==================================
+Algorithms(опционально):
+1)https://yandex.ru/yaintern/algorithm-training
+2)https://habr.com/ru/companies/yandex/articles/449890/
+
+Алгоритмы (выполнить):
+1)https://codeforces.com/problemset/problem/4/A
+2)https://leetcode.com/problems/palindrome-number/
+3)переписать в тетрадь
+https://t.me/SenatorovBootcamp/766/8001 выписать 55стр до 70
+
+1 задача в день(всего 30 задач):
+https://codeforces.com/problemset?order=BY_RATING_ASC&tags=math
+
+копируешь с каждой странице по 1 решению:
+первая страница https://codeforces.com/problemset/status/4/problem/A
+середина https://codeforces.com/problemset/status/4/problem/A/page/600?order=BY_PROGRAM_LENGTH_ASC
+последняя https://codeforces.com/problemset/status/4/problem/A/page/1356?order=BY_PROGRAM_LENGTH_ASC
+
+и вставляешь себе в алгоритмы Algorithms\codeforces.ipynb, потом проводишь разбор кода
+и так дальше по другим задачам.
+
+Computer Science:
+1) компьютер сайнс пройти курс https://learn.epam.com/detailsPage?id=07464fe7-306f-4aa2-abdb-fb81ba509124
+2) посмотреть видео https://www.youtube.com/watch?v=Wh22_O8jXVQ&list=PLIJLLSrXDPojDGKW0WZ7sU0eO3nyn0oDc
+==================================
+Math(school):
+1) пройти все разделы которые непонятны https://mathter.pro/pesochnica/index.html (фото конспекта скинуть в папку math/school_math/, в формате pdf)
+каждую тему из Емелина обязательно пройти в книге Битнер пункт 2 и прорешать.
+Если чуствуешь что нужна ещё практика, то открываешь учебник Крамор пункт 2 и прорешиваешь такую же тему там.
+2) экспресс курс по школьной математике, 2 лучших учебника \Math\school_theory
+3) Когда пройдёшь все темы в Емелине, добей остальные темы в книге Битнер
+==================================
+Calculus:
+
+Теория(книга - для хардкорщиков):
+https://vk.com/doc297168001_651784102
+
+Практика:
+1*) https://www.lektorium.tv/matematicheskij-analiz (прочитать весь "Список теоретических материалов"(под видео) и выписать в тетрадь все ПРИМЕРЫ И РЕШЕНИЯ), пройти ДО дифуров!
+конспект сохраняешь в \Math\calculus\lektorium\topic_name.pdf  topic_name - название темы
+1.1) доп курс выполнять параллельно с 1 https://edu.sirius.online/#/course/1788
+
+При выполнении 1*) обязательно опираться на эти 2 плейлиста:
+Теория+практика видео: https://www.youtube.com/watch?v=zkTFyZVav-s&list=PLGtfmJuN1mTD2ND-zeBWHv3ACO5J0G9DR
+Теория+практика видео: https://www.youtube.com/watch?v=ZAiDxlBCW28&list=PLCx14LDfH033RANLVFVAdFIxFHhy1VXHr
+
+2) На каждую тему из 1*) переписать минимум по 3 решения из Math\calculus\theory\Anti-Demidovich (Lyashko I.I., i dr.). Tom 1.pdf
+
+3) переписать все примеры отсюда \Math\calculus\theory\Пределы_решения
+Свой конспект сохранить в каждой папке limit.pdf
+
+УРА, РУКУ МЫ НАБИЛИ ПОРА ПРАКТИКОВАТЬСЯ:
+
+Итоговый контроль:
+1) скачать https://t.me/c/1937296927/888/11888
+1.1 Изучить критерий Коши, на 28 странице(задачник)
+1.2 выполнить 5.231 - 5.245 в тетради,
+1.3 конспект загрузить в \Math\calculus\5.231_5.245\limit.pdf
+1.4 так же сделай первые 3 примера из конспекта в sympy https://t.me/c/1937296927/13078
+сохраняешь в \Math\calculus\5.231_5.245\sympy.ipynb
+2) выполнить только чётные 5.272-5.286
+конспект загрузить в \Math\calculus\5.272-5.286\limit.pdf
+3) Выполнить только чётные 5.288-5.333
+конспект загрузить в \Math\calculus\5.288-5.333\limit.pdf
+4) Начать читать 35стр непрерывность функции
+
+Понимать и знать итоговые темы отсюда \Math\calculus\theory\Экзаменационный контроль
+==================================
+==================================
+Архив:
+
+Python:
+
+
+Если что - пиши в чат, всегда поможем, добро пожаловать в команду SENATOROV TEAM!
