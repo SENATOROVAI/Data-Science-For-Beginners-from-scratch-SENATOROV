@@ -1,0 +1,5 @@
+name: Blank Issue
+description: Create a blank issue with no pre-filled content.
+labels: []
+body: |
+  <!-- Describe your issue here -->
