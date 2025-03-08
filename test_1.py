@@ -3,7 +3,7 @@
 
 def test_1() -> None:
     """Test 1."""
-    print("local data")
+    print("Git data")
 
 
 test_1()
