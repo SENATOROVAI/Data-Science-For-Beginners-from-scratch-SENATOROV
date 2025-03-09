@@ -1,4 +1,4 @@
-https://t.me/SENATOROVAI
+
 ## Python
   * Clean Code
     * [Chapter 1](Python/clean_code/chapter_1.ipynb)
