@@ -99,3 +99,20 @@
 #
 # - Steps for Building a Model
 # - Probabilistic and non-probabilistic or deterministic approaches
+
+# ### 12.03.2025
+#
+# - Time complexity and space for analytic and iterative approaches
+# - Method of funding parameters:
+#   - Analytic(Linear algebra)
+#     - Pros/Con
+#     - Main definition
+#     - Equation
+#   - Iterative(Calculus)
+#     - Pros/Con
+#     - Main definition
+#     - Equation
+# - Loss function and derivative
+# - Calculate derivative
+#   - Graphical approach
+#   - Algebraic approach
