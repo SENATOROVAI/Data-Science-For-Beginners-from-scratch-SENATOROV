@@ -1,3 +1,5 @@
+"""If statement and loops."""
+
 # ## Условия и циклы. Продолжение
 
 # ### Еще раз про условия с if
@@ -9,27 +11,25 @@
 # импортируем библиотеку numpy
 import numpy as np
 
-x = 42  # зададим число
+x_val = 42  # зададим число
 
 # и пропишем условия (не забывайте про двоеточие и отступ)
-if x < 10:
+if x_val < 10:
     print("Small")
-elif x < 100:
+elif x_val < 100:
     print("Medium")
 else:
     print("Large")
 
 # +
 # запросим число у пользователя
-x = input("Введите число: ")
-
 # преобразуем в тип int
-x = int(x)
+x_input_val: int = int(input("Введите число: "))
 
 # и наконец классифицируем
-if x < 10:
+if x_input_val < 10:
     print("Small")
-elif x < 100:
+elif x_input_val < 100:
     print("Medium")
 else:
     print("Large")
@@ -39,18 +39,18 @@ else:
 
 # +
 # запрашиваем число
-y = input("Введите число: ")
+y_input_val = input("Введите число: ")
 
 # проверяем первое условие (не пустая ли строка), если оно выполняется
-if len(y) != 0:
+if len(y_input_val) != 0:
 
     # преобразуем в тип int
-    y = int(y)
+    y_input_val_int = int(y_input_val)
 
     # и классифицируем
-    if x < 10:
+    if y_input_val_int < 10:
         print("Small")
-    elif x < 100:
+    elif y_input_val_int < 100:
         print("Medium")
     else:
         print("Large")
@@ -64,10 +64,10 @@ else:
 
 # +
 # пример с and (логическим И)
-z = 42
+z_val = 42
 
 # если z больше 10 и одновременно меньше 100
-if z > 10 and z < 100:
+if 10 < z_val < 100:
 
     # у нас среднее число
     print("Medium")
@@ -78,10 +78,10 @@ else:
 
 # +
 # пример с or (логическим ИЛИ)
-z = 2
+b_val = 2
 
 # если z меньше 10 или больше 100
-if z < 10 or z > 100:
+if b_val < 10 or b_val > 100:
 
     # оно либо маленькое либо большое
     print("Small or Large")
@@ -113,16 +113,16 @@ if number not in number_list:
 # кроме того, можно проверить вхождение ключа и значения в словарь
 
 # возьмем очень простой словарь
-d = {"apple": 3, "tomato": 6, "carrot": 2}
+d_fruits = {"apple": 3, "tomato": 6, "carrot": 2}
 # -
 
 # вначале поищем яблоки среди ключей словаря
-if "apple" in d:
+if "apple" in d_fruits:
     print("Нашлись")
 
 # а затем посмотрим, нет ли числа 6 среди его значений
 # с помощью метода .values()
-if 6 in d.values():
+if 6 in d_fruits.values():
     print("Есть")
 
 # ### Циклы в Питоне
@@ -141,16 +141,16 @@ for number in number_list:
 # -
 
 # создадим словарь, значениями которого будут списки из двух элементов
-d = {"apple": [3, "kg"], "tomato": [6, "pcs"], "carrot": [2, "kg"]}
+d_fruits_els = {"apple": [3, "kg"], "tomato": [6, "pcs"], "carrot": [2, "kg"]}
 
 # затем создадим две переменные-контейнера и применим метод .items()
-for k, v in d.items():
-    print(k, v)
+for key, value in d_fruits_els.items():
+    print(key, value)
 
 # возьмем только одну переменную и применим метод .values()
-for v in d.values():
-    # значение представляет собой список, выведем его первый элемент с индексом [0]
-    print(v[0])
+for v_val in d_fruits_els.values():
+    # представляет собой список, выведем его первый элемент с индексом [0]
+    print(v_val[0])
 
 # +
 # создадим массив и поместим в переменную number_array
@@ -162,22 +162,22 @@ for number in number_array:
 # -
 
 # предположим, что у нас есть следующая база данных клиентов
-clients = {
+clients_2 = {
     1: {"name": "Анна", "age": 24, "sex": "male", "revenue": 12000},
     2: {"name": "Илья", "age": 18, "sex": "female", "revenue": 8000},
 }
 
 # в первом цикле for поместим id и информацию о клиентах в переменные id и info
-for id, info in clients.items():
+for client_id, info in clients_2.items():
 
     # выведем id клиента
-    print("client ID: " + str(id))
+    print("client ID: " + str(client_id))
 
     # во втором цикле возьмем информацию об этом клиенте (это тоже словарь)
-    for k, v in info.items():
+    for cl_key, cl_value in info.items():
 
         # и выведем каждый ключ (название поля) и значение (саму информацию)
-        print(k + ": " + str(v))
+        print(cl_key + ": " + str(cl_value))
 
     # добавим пустую строку после того, как выведем информацию об одном клиенте
     print()
@@ -185,16 +185,16 @@ for id, info in clients.items():
 # ##### Функция range()
 
 # создадим последовательность от 0 до 4
-for i in range(5):
-    print(i)
+for nmb in range(5):
+    print(nmb)
 
 # от 1 до 5
-for i in range(1, 6):
-    print(i)
+for el in range(1, 6):
+    print(el)
 
 # и от 0 до 5 с шагом 2 (то есть будем выводить числа через одно)
-for i in range(0, 6, 2):
-    print(i)
+for el in range(0, 6, 2):
+    print(el)
 
 # +
 # возьмем месяцы года
@@ -216,11 +216,10 @@ months = [
 # и продажи мороженого в тыс. рублей в каждый из месяцев
 sales = [47, 75, 79, 94, 123, 209, 233, 214, 197, 130, 87, 55]
 
-# задав последовательность через range(len()),
-for i in range(len(months)):
-
+# используем enumerate для получения индекса и значения
+for i, month in enumerate(months):
     # мы можем вывести каждый из элементов обоих списков в одном цикле
-    print(months[i], sales[i])
+    print(month, sales[i])
 # -
 
 # Последовательность в обратном порядке
@@ -233,36 +232,36 @@ my_list = [0, 1, 2, 3, 4]
 
 # передадим его функции reversed() и
 # выведем каждый из элементов списка с помощью цикла for
-for i in reversed(my_list):
-    print(i)
+for my_list_el in reversed(my_list):
+    print(my_list_el)
 # -
 
-for i in reversed(range(5)):
-    print(i)
+for el in reversed(range(5)):
+    print(el)
 
 # **Способ 2**. Указать $-1$ в качестве параметра шага
 
 # первым параметром укажем конечный элемент списка,
 # а вторым - начальный
-for i in range(4, 0, -1):
-    print(i)
+for el in range(4, 0, -1):
+    print(el)
 
 # чтобы вывести 0, вторым параметром нужно указать -1
-for i in range(4, -1, -1):
-    print(i)
+for el in range(4, -1, -1):
+    print(el)
 
 # **Способ 3**. Функция sorted()
 
 # +
 # создадим последовательность от 0 до 4
-r = range(5)
+range_ls = range(5)
 
 # отсортируем ее по убыванию
-sorted_values = sorted(r, reverse=True)
+sorted_values = sorted(range_ls, reverse=True)
 
 # выведем элементы отсортированной последовательности
-for i in sorted_values:
-    print(i)
+for el in sorted_values:
+    print(el)
 # -
 
 # ##### Функция enumerate()
@@ -279,44 +278,44 @@ days = [
     "Воскресенье",
 ]
 
-# выведем индекс (i) и сами элементы списка (day)
-for i, day in enumerate(days):
-    print(i, day)
+# выведем индекс (day_index) и сами элементы списка (day)
+for day_index, day in enumerate(days):
+    print(day_index, day)
 # -
 
 # так же выведем индекс и элементы списка, но начнем с 1
-for i, day in enumerate(days, 1):
-    print(i, day)
+for day_ind, day in enumerate(days, 1):
+    print(day_ind, day)
 
 # #### Цикл while
 
 # +
 # зададим начальное значение счетчика
-i = 0
+counter = 0
 
 # пока счетчик меньше трех
-while i < 3:
+while counter < 3:
 
     # в каждом цикле будем выводить его текущее значение
-    print("Текущее значение счетчика:  " + str(i))
+    print("Текущее значение счетчика:  " + str(counter))
 
     # внутри цикла не забудем "нарастить" счетчик
-    i = i + 1
+    counter = counter + 1
 
     # и выведем новое значение
-    print("Новое значение счетчика:    " + str(i))
+    print("Новое значение счетчика:    " + str(counter))
 
     # добавим пустую строку
     print()
 
 # +
 # тот же код можно упростить
-i = 0
+counter_2 = 0
 
-while i < 3:
-    print(i)
+while counter_2 < 3:
+    print(counter_2)
     # в частности, оператор += сразу увеличивает и присваивает новое значение
-    i += 1
+    counter_2 += 1
 # -
 
 # #### Break, continue
@@ -331,29 +330,29 @@ clients = {
 }
 
 # в цикле пройдемся по ключам и значениям словаря
-for id, info in clients.items():
+for id_val, info in clients.items():
 
     # и выведем их
-    print(id, info)
+    print(id_val, info)
 
     # однако уже после первого исполнения цикла, прервем его
     break
 
 # +
 # начальное значение счетчика
-x = 6
+counter_3 = 6
 
 # будем исполнять цикл пока x не равен нулю
-while x != 0:
+while counter_3 != 0:
 
     # выведем текущее значение счетчика
-    print(x)
+    print(counter_3)
 
     # и уменьшим (!) его на 1
-    x -= 1
+    counter_3 -= 1
 
     # если значение счетчика станет равным 3, прервем цикл
-    if x == 3:
+    if counter_3 == 3:
         break
 # -
 
@@ -363,17 +362,15 @@ while x != 0:
 # выведем все четные числа в диапазоне от 1 до 10 включительно.
 
 # с помощью функции range() создадим последовательность от 1 до 10
-for i in range(1, 11):
+for range_item_ls in range(1, 11):
 
     # если остаток от деления на два не равен нулю (то есть число нечетное)
-    if i % 2 != 0:
+    if range_item_ls % 2 != 0:
 
         # идем к следующему числу последовательности
         continue
 
-    # в противном случае выводим число
-    else:
-        print(i)
+    print(range_item_ls)
 # -
 
 # #### Форматирование строк через f-строки и метод .format()
@@ -398,33 +395,29 @@ Monday
 # теперь напишем фразу "Понедельник - день тяжелый" следующим образом
 print(f"{Monday} - день тяжелый")
 
-# то же самое можно вывести с помощью метода .format()
-print("{} - день тяжелый".format(Monday))
-
 # ### Ответы на вопросы к занятию
 
 # **Вопрос**. Можно ли использовать цикл while с функцией range()?
 
 # +
-# с функцией range() можно использовать цикл while, но такое решение не оптимально
+# range() можно использовать цикл while, но такое решение не оптимально
 # приведем пример с while
 
-i = 1  # создадим счетчик
+counter_4 = 1  # создадим счетчик
 
-while i in range(1, 11):  # пока счетчик в диапазоне от 1 до 10
-    print("Значение счетчика ", i)  # выведем его значение и
-    i += 1  # увеличим счетчик на 1
+while counter_4 in range(1, 11):  # пока счетчик в диапазоне от 1 до 10
+    print("Значение счетчика ", counter_4)  # выведем его значение и
+    counter_4 += 1  # увеличим счетчик на 1
 # -
 
 # более оптимальный код
-for i in range(1, 11):
-    print("Значение счетчика ", i)
+for k_val in range(1, 11):
+    print("Значение счетчика ", k_val)
 
-# **Вопрос**. Можно ли обойтись без оператора continue в приведенном на занятии примере?
+# **Вопрос**. Можно ли обойтись без оператора continue \
+# в приведенном на занятии примере?
 
-for i in range(1, 11):
+for j_val in range(1, 11):
     # если число четное, выведем его
-    if i % 2 == 0:
-        print(i)
-
-
+    if j_val % 2 == 0:
+        print(j_val)
