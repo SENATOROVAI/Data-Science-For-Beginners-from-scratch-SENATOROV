@@ -103,7 +103,7 @@
 # ### 12.03.2025
 #
 # - Time complexity and space for analytic and iterative approaches
-# - Method of funding parameters:
+# - Method of finding parameters:
 #   - Analytic(Linear algebra)
 #     - Pros/Con
 #     - Main definition
@@ -116,3 +116,15 @@
 # - Calculate derivative
 #   - Graphical approach
 #   - Algebraic approach
+
+# ### 19.03.2025
+#
+# - Concepts of Derivatives
+#     - Definition of a Derivative
+#     - Rules for Computing Derivatives
+#       - Power Function
+#       - Scalar
+#       - Product Rule
+#       - Quotient Rule
+#       - Complex Function (Composition of Functions)
+#
