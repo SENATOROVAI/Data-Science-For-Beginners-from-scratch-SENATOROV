@@ -128,3 +128,11 @@
 #       - Quotient Rule
 #       - Complex Function (Composition of Functions)
 #
+
+# ### 24.03.2025
+#
+# - Python practice
+#   - Finding derivatives with the help of `sympy` module
+#   - Optimization of a function and finding the minimum
+#   - Building plots to represent decreasing loss
+#
