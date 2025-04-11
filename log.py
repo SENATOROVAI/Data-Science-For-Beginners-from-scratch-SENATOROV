@@ -136,3 +136,9 @@
 #   - Optimization of a function and finding the minimum
 #   - Building plots to represent decreasing loss
 #
+
+# ### 11.04.2025
+# - Function of several variables
+# - Gradient concept
+# - Taking partial derivatives
+# - Gradient descent
