@@ -240,8 +240,8 @@ coverage/
 
 
 
-*.png
-*.jpg
+#*.png
+#*.jpg
 *.jpeg
 *.zip
 *.rar
@@ -251,9 +251,9 @@ coverage/
 # Common binary file extensions
 
 # Images
-*.png
-*.jpg
-*.jpeg
+#*.png
+#*.jpg
+#*.jpeg
 *.gif
 *.bmp
 *.tiff
@@ -333,3 +333,7 @@ coverage/
 
 /Math/calculus/theory
 /Math/school_theory
+
+Screenshot_7.png
+
+
