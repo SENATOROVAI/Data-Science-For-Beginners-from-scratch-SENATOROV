@@ -142,3 +142,10 @@
 # - Gradient concept
 # - Taking partial derivatives
 # - Gradient descent
+
+# ### 16.04.2025
+#
+# - Projection of a vector onto a vector
+# - Scalar product of vectors
+# - Scalar product of vectors in Python
+# - Geometric meaning of the derivative in the direction of two variables
