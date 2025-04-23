@@ -149,3 +149,10 @@
 # - Scalar product of vectors
 # - Scalar product of vectors in Python
 # - Geometric meaning of the derivative in the direction of two variables
+
+# #### 23.04.2025
+#
+# - Geometric meaning of directional derivatives
+# - Geometric meaning of partial derivatives
+# - Gradient of a function
+# - Practice of finding directional derivative and gradient
