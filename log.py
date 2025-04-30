@@ -156,3 +156,8 @@
 # - Geometric meaning of partial derivatives
 # - Gradient of a function
 # - Practice of finding directional derivative and gradient
+
+# #### 30.04.2025
+# - Gradient of a function
+# - Directional derivative
+# - Practice of finding directional derivative and gradient
