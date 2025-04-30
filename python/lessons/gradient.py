@@ -5,8 +5,10 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from numpy.typing import NDArray
+
 # импортируем фукцию diff() и
 from sympy import diff
+
 # превратим x и y в символы
 from sympy.abc import x, y
 
@@ -269,10 +271,193 @@ def partial_2(w2_val: float) -> float:
 
 # +
 # пропишем изначальные веса
-w1, w2 = 3, 4
+w1, w2 = float(3), float(4)
 
 # количество итераций
 iterations_count = 100
 
 # и скорость обучения
 learning_rate = 0.05
+
+# +
+w1_list = []
+w2_list = []
+l_list = []
+
+for _ in range(iterations_count):
+    w1_list.append(w1)
+    w2_list.append(w2)
+    l_list.append(objective(w1, w2))
+    par_1 = partial_1(w1)
+    par_2 = partial_2(w2)
+    w1 = w1 - learning_rate * par_1
+    w2 = w2 - learning_rate * par_2
+
+
+print(w1, w2, objective(w1, w2))
+
+
+# +
+def draw_grad_process() -> None:
+    """Draw 3D visualization of gradient descent process."""
+    fig = plt.figure(figsize=(14, 12))
+
+    x_vl = np.linspace(-5, 5, 1000)
+    y_vl = np.linspace(-5, 5, 1000)
+
+    x_vl, y_vl = np.meshgrid(x_vl, y_vl)
+
+    func = x_vl**2 + y_vl**2
+
+    ax = fig.add_subplot(projection="3d")
+
+    ax.plot_surface(x_vl, y_vl, func, alpha=0.4, cmap="Blues")
+
+    ax.text(3, 3.5, 28, "A", size=25)
+    ax.text(0, -0.4, 4, "B", size=25)
+
+    ax.set_xlabel("w1", fontsize=15)
+    ax.set_ylabel("w2", fontsize=15)
+    ax.set_zlabel("f(w1, w2)", fontsize=15)
+
+    # выведем путь алгоритма оптимизации
+    ax.plot(w1_list, w2_list, l_list, ".-", c="red")
+
+    plt.show()
+
+    # берем все точки из датасета, полный град
+
+
+draw_grad_process()
+# -
+
+# Простая линейная регрессия
+# возьмем уже известные нам данные роста и обхвата шеи
+X_val = np.array(
+    [
+        1.48,
+        1.49,
+        1.49,
+        1.50,
+        1.51,
+        1.52,
+        1.52,
+        1.53,
+        1.53,
+        1.54,
+        1.55,
+        1.56,
+        1.57,
+        1.57,
+        1.58,
+        1.58,
+        1.59,
+        1.60,
+        1.61,
+        1.62,
+        1.63,
+        1.64,
+        1.65,
+        1.65,
+        1.66,
+        1.67,
+        1.67,
+        1.68,
+        1.68,
+        1.69,
+        1.70,
+        1.70,
+        1.71,
+        1.71,
+        1.71,
+        1.74,
+        1.75,
+        1.76,
+        1.77,
+        1.77,
+        1.78,
+    ]
+)
+y_val_2 = np.array(
+    [
+        29.1,
+        30.0,
+        30.1,
+        30.2,
+        30.4,
+        30.6,
+        30.8,
+        30.9,
+        31.0,
+        30.6,
+        30.7,
+        30.9,
+        31.0,
+        31.2,
+        31.3,
+        32.0,
+        31.4,
+        31.9,
+        32.4,
+        32.8,
+        32.8,
+        33.3,
+        33.6,
+        33.0,
+        33.9,
+        33.8,
+        35.0,
+        34.5,
+        34.7,
+        34.6,
+        34.2,
+        34.8,
+        35.5,
+        36.0,
+        36.2,
+        36.3,
+        36.6,
+        36.8,
+        36.8,
+        37.0,
+        38.5,
+    ]
+)
+
+# +
+# Поле корреляции, корреляционный анализ
+
+# построим точечную диаграмму
+plt.figure(figsize=(10, 6))
+# Поле корреляции
+plt.scatter(X_val, y_val_2)
+
+# добавим подписи
+plt.xlabel("Рост, см", fontsize=16)
+plt.ylabel("Обхват шеи, см", fontsize=16)
+plt.title("Зависимость роста и окружности шеи у женщин в России", fontsize=18)
+
+plt.show()
+# на основании поле корреляция принято
+# решение использовать линейную регрессию, начало регрессионного анализа
+# -
+
+# ![image.png](attachment:image.png)
+
+# ![image.png](attachment:image.png)
+
+# +
+# Метод наименьших квадратов
+X_mean = np.mean(X_val)
+Y_mean = np.mean(y_val_2)
+
+
+numerator, denominator = 0, 0
+
+for ind, val_ in enumerate(X_val):
+    numerator += (val_ - X_mean) * (y[ind] - Y_mean)
+    denominator += (val_ - X_mean) ** 2
+
+w_val = numerator / denominator
+b_val = Y_mean - w_val * X_mean
+print(w_val, b_val)
