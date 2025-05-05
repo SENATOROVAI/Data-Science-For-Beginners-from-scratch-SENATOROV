@@ -161,3 +161,6 @@
 # - Gradient of a function
 # - Directional derivative
 # - Practice of finding directional derivative and gradient
+
+# #### 05.05.2025
+# - Derivation of the formula for finding the linear regression coefficients
