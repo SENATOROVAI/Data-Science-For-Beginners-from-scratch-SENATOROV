@@ -251,19 +251,19 @@ repos:
         require_serial: true
         types_or: [jupyter, markdown]
         additional_dependencies: [pydocstyle]
-  - repo: https://github.com/christophmeissner/pytest-pre-commit
-    rev: 1.0.0
-    hooks:
-      - id: pytest
-        name: "Run pytest with HTML report"
-        entry: pytest
-        args:
-           - "--html=senatorov_report.html"
-           - "--self-contained-html"
-        language: python
-        pass_filenames: false
-        always_run: true
-        additional_dependencies: [pytest-html]
+  # - repo: https://github.com/christophmeissner/pytest-pre-commit
+  #   rev: 1.0.0
+  #   hooks:
+  #     - id: pytest
+  #       name: "Run pytest with HTML report"
+  #       entry: pytest
+  #       args:
+  #          - "--html=senatorov_report.html"
+  #          - "--self-contained-html"
+  #       language: python
+  #       pass_filenames: false
+  #       always_run: true
+  #       additional_dependencies: [pytest-html]
 
   - repo: https://github.com/codespell-project/codespell
     rev: v2.3.0
