@@ -41,7 +41,7 @@ get_externals.bat (через build.bat) загрузит и будет испо
 Открываем его в visual studio
 И нам нужно собрать python.exe кнопкой собрать решение
 
-![build_amd64](\img_build_amd64.png)
+![build_amd64](img\img_build_amd64.png)
 
 в папке с нужной архитектурой.
 C:\Users\auram\Downloads\cpython-3.11.12\PCbuild\amd64\python.exe
@@ -54,4 +54,4 @@ C:\Users\auram\Downloads\cpython-3.11.12\PCbuild\amd64\python.exe
 
 И запустим классическую программу hello world
 
-![hello](hello_world.png)
+![hello](img\hello_world.png)
