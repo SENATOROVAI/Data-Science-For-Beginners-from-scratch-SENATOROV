@@ -54,4 +54,4 @@ C:\Users\auram\Downloads\cpython-3.11.12\PCbuild\amd64\python.exe
 
 И запустим классическую программу hello world
 
-![hello](\hello_world.png)
+![hello](hello_world.png)
