@@ -2,6 +2,7 @@
 
 # https://colab.research.google.com/drive/1z-LCnqxVau7coHGVtQjNvYH1I8NlnOyg?usp=sharing#scrollTo=O54wJh_zlUpU
 # https://skillbox.ru/media/code/perestanovki-sochetaniya-i-razmeshcheniya-starterpak-po-kombinatorike-dlya-it/
+# https://colab.research.google.com/drive/1z-LCnqxVau7coHGVtQjNvYH1I8NlnOyg?usp=sharing#scrollTo=fMnLh-j-N2qX
 
 # The `random` module is a module that allows you to generate
 # pseudorandom numbers and thus simulate random events.
