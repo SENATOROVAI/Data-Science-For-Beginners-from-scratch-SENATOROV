@@ -2422,10 +2422,7 @@ toy_df.corr(method="pearson").round(2)
 # Робастная метрика - метрика устойчивая к выбросам(медиана)
 # -
 
-anscombe = pd.read_json(
-    "https://raw.githubusercontent.com/SENATOROVAI/eda-data/refs/heads/main/"
-    + "anscombe.json?token=GHSAT0AAAAAAC3I45RG2XXCDMJBBYTWIK4A2BNSKHA"
-)
+anscombe = pd.read_json("../../content/anscombe.json")
 anscombe.head()
 
 # +
