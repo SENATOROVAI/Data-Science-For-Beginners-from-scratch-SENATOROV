@@ -1,7 +1,7 @@
 ## Скачиваем исходники с github.org
-Скачаем с репозитория cpython (link)[https://github.com/python/cpython]
+Скачаем с репозитория cpython [link](https://github.com/python/cpython)
 Одна из более чем шести версий языка python это cpython
-скачаем исходный код releases (v3.11.12)[https://github.com/python/cpython/releases/tag/v3.11.12]
+скачаем исходный код releases [v3.11.12](https://github.com/python/cpython/releases/tag/v3.11.12)
 Source code (zip)
 
 Так же на github можно сравнить (compare) выбранную версию с любой другой.
