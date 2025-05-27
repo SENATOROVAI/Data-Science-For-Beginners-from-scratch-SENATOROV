@@ -1,3 +1,2 @@
-# Тут ссылки для работы в [SENATOROVAI](github.com/SENATOROVAI)
-
-## About mee
+# Data-Science-For-Beginners-from-scratch-SENATOROV
+Командный репозиторий.
