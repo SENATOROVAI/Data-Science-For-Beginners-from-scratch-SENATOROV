@@ -10,8 +10,14 @@
 #
 # ![sdf](img/hello_world.png)
 
-"""Модуль для проверки линтером mypy."""
-number: int = 1
-name: str = "Senatorov"
-print(name, str(number))
-print("hello world!!!")
+# """Модуль для проверки линтером mypy."""
+# number: int = 1
+# name: str = "Senatorov"
+# print(name, str(number))
+# print("hello world!!!")
+
+# def print_pairs(lst):
+#     for i in lst:
+#         for j in lst:
+#             print(i, j)
+# print_pairs([1,2,3,4])
