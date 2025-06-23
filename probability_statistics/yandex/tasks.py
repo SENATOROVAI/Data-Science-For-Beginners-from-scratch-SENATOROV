@@ -1,3 +1,37 @@
+https://new.contest.yandex.ru/contests/49301/problem?id=5881839%2F2023_04_29%2FJQ52KAV7ZP
+
+import pandas as pd
+from scipy import stats
+
+
+filename = 'COVID-19 Survey Student Responses.csv'
+df = pd.read_csv(filename)
+
+df['sleep'] = df['Time spent on sleep'] >= 7
+df['social'] = df['Time spent on social media'] < 2
+
+
+ct = pd.crosstab(df['social'], df['sleep'])
+chi2, p, dof, expected = stats.chi2_contingency(ct)
+print(chi2) 
+
+
+https://new.contest.yandex.ru/contests/49301/problem?id=5881839%2F2023_04_29%2F4aI73ki0Y3
+import pandas as pd
+from scipy import stats
+
+
+filename = 'COVID-19 Survey Student Responses.csv'
+df = pd.read_csv(filename)
+
+df['sleep'] = df['Time spent on sleep'] >= 7
+df['social'] = df['Time spent on social media'] < 2
+
+
+ct = pd.crosstab(df['social'], df['sleep'])
+chi2, p, dof, expected = stats.chi2_contingency(ct)
+print(p) 
+
 """Data analysis."""
 
 # pylint: disable=line-too-long
