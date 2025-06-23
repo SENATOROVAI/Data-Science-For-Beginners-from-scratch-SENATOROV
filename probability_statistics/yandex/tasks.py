@@ -78,14 +78,11 @@ def chapter_4() -> None:
     df["Media"] = np.where(
         (df["Time spent on social media"] < 2), "normal", "not normal"
     )
-    df["Sleep"].replace(["normal", "not normal"], [1, 0], inplace=True)
-    df["Media"].replace(["normal", "not normal"], [1, 0], inplace=True)
     contingency_table = pd.crosstab(df["Sleep"], df["Media"])
     chi2, p_value = chi2_contingency(contingency_table)
     print(chi2)
 
     df["Sleep"] = np.where(df["Time spent on sleep"] > 7, "normal", "not normal")
-    df["Sleep"].replace(["normal", "not normal"], [1, 0], inplace=True)
     contingency_table = pd.crosstab(df["Sleep"], df["Media"])
     chi2, p_value = chi2_contingency(contingency_table)
     print(p_value)
