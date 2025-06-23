@@ -13,6 +13,21 @@ ct = pd.crosstab(df['social'], df['sleep'])
 chi2, p, dof, expected = stats.chi2_contingency(ct)
 print(chi2) 
 
+import pandas as pd
+from scipy import stats
+
+
+filename = 'COVID-19 Survey Student Responses.csv'
+df = pd.read_csv(filename)
+
+df['sleep'] = df['Time spent on sleep'] >= 7
+df['social'] = df['Time spent on social media'] < 2
+
+
+ct = pd.crosstab(df['social'], df['sleep'])
+chi2, p, dof, expected = stats.chi2_contingency(ct)
+print(p) 
+
 """Data analysis."""
 
 # pylint: disable=line-too-long
