@@ -5,8 +5,6 @@ from scipy import stats
 filename = 'COVID-19 Survey Student Responses.csv'
 df = pd.read_csv(filename)
 
-
-# True/False: нормальный сон (>=7 часов), нормальное время в соцсетях (<2 часов)
 df['sleep'] = df['Time spent on sleep'] >= 7
 df['social'] = df['Time spent on social media'] < 2
 
