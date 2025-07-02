@@ -1,50 +1,17 @@
-https://new.contest.yandex.ru/contests/49301/problem?id=5881839%2F2023_04_29%2FJQ52KAV7ZP
-
-import pandas as pd
-from scipy import stats
-
-
-filename = 'COVID-19 Survey Student Responses.csv'
-df = pd.read_csv(filename)
-
-df['sleep'] = df['Time spent on sleep'] >= 7
-df['social'] = df['Time spent on social media'] < 2
-
-
-ct = pd.crosstab(df['social'], df['sleep'])
-chi2, p, dof, expected = stats.chi2_contingency(ct)
-print(chi2) 
-
-
-https://new.contest.yandex.ru/contests/49301/problem?id=5881839%2F2023_04_29%2F4aI73ki0Y3
-import pandas as pd
-from scipy import stats
-
-
-filename = 'COVID-19 Survey Student Responses.csv'
-df = pd.read_csv(filename)
-
-df['sleep'] = df['Time spent on sleep'] >= 7
-df['social'] = df['Time spent on social media'] < 2
-
-
-ct = pd.crosstab(df['social'], df['sleep'])
-chi2, p, dof, expected = stats.chi2_contingency(ct)
-print(p) 
-
 """Data analysis."""
 
 # pylint: disable=line-too-long
 # codespell:disable
 
 # +
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from scipy.stats import chi2_contingency, f_oneway, levene, ttest_ind
 
 
 def chapter_2() -> None:
-    """Return chapter_2 tasks."""
+    """Analyze happiness scores and GDP data from 2019 dataset."""
     df = pd.read_csv("./2019.csv")
 
     print(df["Score"].max())
@@ -65,7 +32,7 @@ def chapter_2() -> None:
 
 
 def chapter_3() -> None:
-    """Return chapter_3 tasks."""
+    """Analyze book ratings and prices, perform statistical tests."""
     df = pd.read_csv("./books_prep.csv")
 
     print(df["Author"].describe()["top"])
@@ -92,7 +59,7 @@ def chapter_3() -> None:
 
 
 def chapter_4() -> None:
-    """Return chapter_4 tasks."""
+    """Analyze COVID-19 survey responses about online classes and lifestyle."""
     df = pd.read_csv("./COVID-19 SSR.csv")
     print(df.dtypes.mode()[0])
     df["Rating of Online Class experience"] = df[
@@ -143,4 +110,116 @@ def chapter_4() -> None:
     print(most_spend_time_platform.index[0], most_spend_time_platform.values[0])
 
 
-chapter_4()
+# chapter_4()
+
+
+def chapter_5_1() -> None:
+    """Create histogram of Pokemon Attack stats."""
+    data = pd.read_csv("PokemonData.csv")
+
+    plt.figure()
+    plt.hist(data["Attack"])
+
+    plt.savefig("result.png")
+
+
+def chapter_5_2() -> None:
+    """Create overlapping histograms of Attack and SpAtk stats."""
+    data = pd.read_csv("PokemonData.csv")
+    plt.figure()
+    plt.hist(data["Attack"])
+    plt.hist(data["SpAtk"])
+
+    plt.savefig("result.png")
+
+
+def chapter_5_3() -> None:
+    """Create labeled histograms with legend and axis labels."""
+    data = pd.read_csv("PokemonData.csv")
+    plt.figure()
+    plt.hist(data["Attack"], alpha=0.5, label="Attack")
+    plt.hist(data["SpAtk"], alpha=0.5, label="SpAtk")
+    plt.legend()
+    plt.xlabel("Attack")
+    plt.ylabel("Power")
+
+    plt.savefig("result.png")
+
+
+def chapter_5_4() -> None:
+    """Create histograms with Russian labels."""
+    data = pd.read_csv("PokemonData.csv")
+    plt.figure()
+    plt.hist(data["Attack"], alpha=0.5, label="Обычная атака")
+    plt.hist(data["SpAtk"], alpha=0.5, label="Специальная атака")
+    plt.legend()
+
+    plt.savefig("result.png")
+
+
+def chapter_5_5() -> None:
+    """Create histograms with complete Russian labeling."""
+    data = pd.read_csv("PokemonData.csv")
+    plt.figure()
+    plt.hist(data["Attack"], alpha=0.5, label="Обычная атака")
+    plt.hist(data["SpAtk"], alpha=0.5, label="Специальная атака")
+    plt.legend()
+    plt.xlabel("Мощность атаки")
+    plt.ylabel("Количество покемонов")
+
+    plt.savefig("result.png")
+
+
+def chapter_5_6() -> None:
+    """Create scatter plot of Attack vs Defense."""
+    data = pd.read_csv("PokemonData.csv")
+    plt.figure()
+    plt.scatter(data["Attack"], data["Defense"])
+    plt.savefig("result.png")
+
+
+def chapter_5_7() -> None:
+    """Create transparent scatter plot of Attack vs Defense."""
+    data = pd.read_csv("PokemonData.csv")
+    plt.figure()
+    plt.scatter(data["Attack"], data["Defense"], alpha=0.3)
+    plt.savefig("result.png")
+
+
+def chapter_5_8() -> None:
+    """Create bar plot of Pokemon types distribution."""
+    data = pd.read_csv("PokemonData.csv")
+    plt.figure()
+    data["Type1"].value_counts().plot(kind="bar")
+    plt.savefig("result.png")
+
+
+def chapter_5_9() -> None:
+    """Create grouped bar plot comparing legendary vs normal Pokemon types."""
+    data = pd.read_csv("PokemonData.csv")
+    plt.figure()
+    data.groupby("Legendary")["Type1"].value_counts().unstack(0).plot(kind="bar")
+    plt.savefig("result.png")
+
+
+def chapter_5_10() -> None:
+    """Create fully labeled grouped bar plot comparing Pokemon types."""
+    data = pd.read_csv("PokemonData.csv")
+    plt.figure()
+    data.groupby("Legendary")["Type1"].value_counts().unstack(0).plot(kind="bar")
+    plt.xlabel("Тип покемонов")
+    plt.title("Легендарные покемоны по типам в сравнении с обычными")
+    plt.ylabel("Количество")
+    plt.savefig("result.png")
+
+
+chapter_5_1()
+chapter_5_2()
+chapter_5_3()
+chapter_5_4()
+chapter_5_5()
+chapter_5_6()
+chapter_5_7()
+chapter_5_8()
+chapter_5_9()
+chapter_5_10()
