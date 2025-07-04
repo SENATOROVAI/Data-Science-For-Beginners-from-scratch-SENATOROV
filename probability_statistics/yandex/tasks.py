@@ -317,9 +317,8 @@ def chapter_8() -> None:
     renamed_data.columns = pd.Index([cl.capitalize() for cl in renamed_data.columns])
     print(list(renamed_data.columns))
 
-    new_listed_in = data["listed_in"].str.replace(" &", ",", regex=False)
-
-    print(new_listed_in.tail())
+    data["listed_in1"] = data["listed_in"].str.replace("&", ",")
+    print(data["listed_in1"].tail())
 
     missing_values_count = data.isnull().sum()
     print(missing_values_count)
@@ -340,3 +339,31 @@ def chapter_8() -> None:
 
 
 chapter_8()
+
+
+# +
+def chapter_9() -> None:
+    """Process and analyze patient survival data."""
+    data = pd.read_csv("Patient Survival.csv")
+    print(data.sample(500).shape)
+    cols = [
+        "Patient_Age",
+        "Patient_Body_Mass_Index",
+        "Patient_Smoker",
+        "Diagnosed_Condition",
+        "Survived_1_year",
+    ]
+    sampled = data.groupby("Treated_with_drugs", group_keys=False).apply(
+        lambda x: x[cols].sample(30, random_state=42)
+    )
+    print(sampled.shape)
+    print(1)
+    print(3)
+    print(3)
+    print(2)
+    print(1)
+    print(1)
+    print(1)
+
+
+chapter_9()
