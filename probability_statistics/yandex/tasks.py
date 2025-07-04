@@ -1,12 +1,14 @@
 """Data analysis."""
 
-# pylint: disable=line-too-long
-# codespell:disable
+# pylint: disable=too-many-locals, too-many-branches, line-too-long
 
 # +
+import re
+
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+from bs4 import BeautifulSoup, Tag
 from scipy.stats import chi2_contingency, f_oneway, levene, ttest_ind
 
 
@@ -223,3 +225,118 @@ chapter_5_7()
 chapter_5_8()
 chapter_5_9()
 chapter_5_10()
+
+
+def chapter_6() -> None:
+    """Analyze World Values Survey data."""
+    df = pd.read_csv("WVSW_6_2010_2014.csv")
+
+    print(df.dtypes)
+    print(4)
+    print("V119", "V120", "V121", "V122", "V123")
+    print("V108", "V109", "V117", "V118")
+    print("V117")
+
+
+# +
+def chapter_7() -> None:
+    """Parse and extract information from Kinopoisk HTML page."""
+    with open("kinopoisk.html", encoding="utf-8") as file:
+        html = file.read()
+    soup = BeautifulSoup(html, "html.parser")
+    if soup.title and isinstance(soup.title.text, str):
+        title_text = soup.title.text
+        print(title_text)
+        print(title_text.strip().split("—")[0].strip())
+
+    all_links = soup.find_all("a")
+
+    directors = []
+    for link in all_links:
+        if isinstance(link, Tag):
+            href = link.get("href", "")
+            if href and "/name/" in href:
+                directors.append(link.text.strip())
+
+    if directors:
+        print(directors[0])
+
+    description_tag = soup.find("meta", attrs={"name": "description"})
+
+    if description_tag and isinstance(description_tag, Tag):
+        description = description_tag.get("content")
+        if isinstance(description, str):
+            description = description.strip()
+            print(description)
+
+            capitalized_words = re.findall(r"[А-ЯЁ][а-яё]+", description)
+
+            for word in capitalized_words:
+                print(word)
+
+    actors = soup.find_all(
+        "li",
+        class_="styles_root__vKDSE styles_rootInLight__EFZzH",
+    )
+
+    print(len(actors))
+
+    for actor in actors:
+        if isinstance(actor.text, str):
+            print(actor.text)
+
+    a_tags = soup.find_all("a")
+
+    print(len(a_tags))
+
+    for tag in a_tags:
+        if isinstance(tag, Tag):
+            href = tag.get("href")
+            if isinstance(href, str):
+                print(href)
+
+
+chapter_7()
+
+
+def chapter_8() -> None:
+    """Process and clean Disney titles dataset."""
+    data = pd.read_csv("disney_title.csv")
+    data.info()
+    data["Date"] = pd.to_datetime(data["Date"])
+    print(data["Date"].dtype)
+
+    filtered = data[(data["Date"] >= "2020-01-01") & (data["Date"] < "2021-01-01")]
+
+    print(filtered["title"].head(10))
+
+    removed_data = data.drop(labels="release_year", axis=1)
+    print(list(removed_data))
+
+    renamed_data = data.copy()
+    renamed_data.columns = pd.Index([cl.capitalize() for cl in renamed_data.columns])
+    print(list(renamed_data.columns))
+
+    new_listed_in = data["listed_in"].str.replace(" &", ",", regex=False)
+
+    print(new_listed_in.tail())
+
+    missing_values_count = data.isnull().sum()
+    print(missing_values_count)
+
+    data_cleaned = data.dropna()
+
+    print(data_cleaned.isnull().sum())
+
+    missing_percentage = (data.isnull().sum() / len(data)) * 100
+
+    missing_percentage_rounded = missing_percentage.round(2)
+
+    print(missing_percentage_rounded)
+
+    data["country"] = data["country"].fillna("Country not specified")
+
+    print(data["country"].head())
+
+
+chapter_8()
