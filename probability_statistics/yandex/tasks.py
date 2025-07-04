@@ -317,9 +317,10 @@ def chapter_8() -> None:
     renamed_data.columns = pd.Index([cl.capitalize() for cl in renamed_data.columns])
     print(list(renamed_data.columns))
 
-    new_listed_in = data["listed_in"].str.replace(" &", ",", regex=False)
-
-    print(new_listed_in.tail())
+    import pandas as pd
+    df = pd.read_csv('disney_title.csv')
+    df['listed_in1'] = df['listed_in'].str.replace('&', ',')
+    print(df['listed_in1'].tail())
 
     missing_values_count = data.isnull().sum()
     print(missing_values_count)
