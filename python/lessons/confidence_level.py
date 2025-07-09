@@ -66,3 +66,57 @@
 #     The Point Estimate is usually your sample mean.
 #     Adding and subtracting the margin of error gives the range where the
 # true value is likely to be.
+# -
+
+# Some Key Takeaways from Confidence Interval are:
+#
+#     Confidence Intervals are essential in data science to find the uncertainty of estimates and make predictions more reliable.
+#     t-distribution is used for small sample sizes (n < 30) while z-distribution is used for large sample sizes (n > 30).
+#     Confidence intervals help to make data-driven decisions by providing a range instead of a single point estimate. This is especially important in A/B testing, market research and machine learning.
+
+# +
+import math
+
+import numpy as np
+from scipy import stats
+
+
+# +
+def calculate_t_test() -> None:
+    """Calculate of t-test."""
+    mean = 240
+    std = 25
+    n = 10
+    df = n - 1
+    alpha = 0.025
+    t = stats.t.ppf(1 - alpha, df)
+
+    moe = t * (std / math.sqrt(n))
+
+    lower = mean - moe
+    upper = mean + moe
+
+    print(f"Confidence Interval: ({lower:.2f}, {upper:.2f})")
+
+
+calculate_t_test()
+
+
+# +
+def calculate_z_test() -> None:
+    """Calculate z-test."""
+    mean = 4.63
+    std_dev = 0.54
+    n = 50
+    z = 1.960
+
+    se = std_dev / np.sqrt(n)
+    moe = z * se
+
+    lower = mean - moe
+    upper = mean + moe
+
+    print(f"Confidence Interval: ({lower:.3f}, {upper:.3f})")
+
+
+calculate_z_test()
