@@ -18,7 +18,7 @@ repos:
     rev: "eb1df347edd128b30cd3368dddc3aa65edcfac38"
     hooks:
       - id: docformatter
-        args: [--in-place, --wrap-descriptions=79, --style=google]
+        args: [--in-place, --wrap-descriptions=90, --style=google]
   - repo: https://github.com/psf/black.git
     rev: "24.10.0"
     hooks:
@@ -218,7 +218,7 @@ repos:
         additional_dependencies: [pylint]
         args:
           - --ignore=no_check*,__init__.py
-          - --max-line-length=79
+          - --max-line-length=90
           - --const-naming-style=any
           - --disable=E0401,W0104,R0903,R1721,E1101,E0611,F0002,C0305,C0303,E2515
 
@@ -234,7 +234,7 @@ repos:
         args:
           [
             "--ignore=no_check*,__init__.py",
-            "--max-line-length=79",
+            "--max-line-length=90",
             "--const-naming-style=any",
             "--disable=E0401,W0104,R0903,R1721,E1101,E0611,F0002,C0305,line-too-long,C0303,E2515"
           ]
