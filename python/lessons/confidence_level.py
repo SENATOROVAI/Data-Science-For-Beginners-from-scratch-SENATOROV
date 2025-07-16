@@ -120,3 +120,31 @@ def calculate_z_test() -> None:
 
 
 calculate_z_test()
+
+
+# -
+
+
+def hypothesis_test() -> None:
+    """Calculate hypothesis metrics."""
+    alpha = 0.05
+    b = np.array([120, 122, 118, 130, 125, 128, 115, 121, 123, 119])
+    a = np.array([115, 120, 112, 128, 122, 125, 110, 117, 119, 114])
+    t_stat, p_val = stats.ttest_rel(a, b)
+    print(p_val)
+    m = np.mean(b - a)
+    s = np.std(b - a, ddof=1)
+    t = m / (s / np.sqrt(len(b)))
+    print(t)
+    decision = "Reject" if p_val <= alpha else "Fail reject"
+    concl = (
+        "Significant difference."
+        if decision == "Reject"
+        else "No significant difference."
+    )
+
+    print("T:", t_stat)
+    print("P:", p_val)
+    print("T:", t)
+    print(f"Decision: {decision} H0 at α={alpha}")
+    print("Conclusion:", concl)
