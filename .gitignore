@@ -333,3 +333,6 @@ coverage/
 
 /Math/calculus/theory
 /Math/school_theory
+
+# Ignore specific files
+log.py
