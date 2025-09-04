@@ -27,3 +27,4 @@ open _build/html/index.html  # Windows: start _build/html/index.html
 Документация автоматически собирается и публикуется на GitHub Pages при каждом коммите в ветку main.
  https://t.me/SENATOROVAI
  https://t.me/SENATOROVAI
+   
