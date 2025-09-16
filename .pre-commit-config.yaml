@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/mwouts/jupytext
-    rev: "v1.16.4b"
+    rev: "v1.17.3"
     hooks:
     - id: jupytext
       entry: jupytext
@@ -15,17 +15,17 @@ repos:
         - --warn-only
       exclude: '.*\.md$' # excludes md files
   - repo: https://github.com/PyCQA/docformatter
-    rev: "eb1df347edd128b30cd3368dddc3aa65edcfac38"
+    rev: "v1.7.7"
     hooks:
       - id: docformatter
         args: [--in-place, --wrap-descriptions=90, --style=google]
   - repo: https://github.com/psf/black.git
-    rev: "24.10.0"
+    rev: "25.1.0"
     hooks:
       - id: black
 
   - repo: https://github.com/nbQA-dev/nbQA
-    rev: 1.9.0
+    rev: 1.9.1
     hooks:
       - id: nbqa-black
         name: nbqa-black
@@ -36,12 +36,12 @@ repos:
         types_or: [jupyter, markdown]
         additional_dependencies: [black]
   - repo: https://github.com/asottile/pyupgrade
-    rev: "v3.19.0"
+    rev: "v3.20.0"
     hooks:
       - id: pyupgrade
         args: [--py39-plus]
   - repo: https://github.com/pycqa/isort
-    rev: "5.13.2"
+    rev: "6.0.1"
     hooks:
       - id: isort
         entry: isort
@@ -50,7 +50,7 @@ repos:
           - --float-to-top
 
   - repo: https://github.com/nbQA-dev/nbQA
-    rev: "1.9.0"
+    rev: "1.9.1"
     hooks:
       - id: nbqa
         entry: nbqa blacken-docs
@@ -60,7 +60,7 @@ repos:
         args:
           - --nbqa-md
   - repo: https://github.com/nbQA-dev/nbQA
-    rev: 1.9.0
+    rev: 1.9.1
     hooks:
       - id: nbqa-pyupgrade
         name: nbqa-pyupgrade
@@ -83,7 +83,7 @@ repos:
           - --float-to-top 
 
   - repo: https://github.com/codespell-project/codespell
-    rev: v2.3.0
+    rev: v2.4.1
     hooks:
       - id: codespell
         additional_dependencies:
@@ -93,7 +93,7 @@ repos:
           - --ignore-regex=[A-Za-z0-9+/]{100,}
           - --skip=*.js,*.html,*.css,*.svg",*.json,*.png,*.jpg,*.yml,*.yaml
   - repo: https://github.com/nbQA-dev/nbQA
-    rev: 1.9.0
+    rev: 1.9.1
     hooks:
       - id: nbqa-flake8
         args:
@@ -111,7 +111,7 @@ repos:
           - flake8-functions-names
 
   - repo: https://github.com/PyCQA/flake8
-    rev: 7.1.1
+    rev: 7.3.0
     hooks:
       - id: flake8
         args:
@@ -123,7 +123,7 @@ repos:
           - flake8-functions-names
 
   - repo: https://github.com/nbQA-dev/nbQA
-    rev: 1.9.0
+    rev: 1.9.1
     hooks:
       - id: nbqa-mypy
         name: nbqa-mypy
@@ -168,7 +168,7 @@ repos:
 
 
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.13.0
+    rev: v1.18.1
     hooks:
       - id: mypy
         args:
@@ -206,7 +206,7 @@ repos:
           - types-setuptools
 
   - repo: https://github.com/nbQA-dev/nbQA
-    rev: 1.9.0
+    rev: 1.9.1
     hooks:
       - id: nbqa-pylint
         name: nbqa-pylint
@@ -224,7 +224,7 @@ repos:
 
 
   - repo: https://github.com/pylint-dev/pylint
-    rev: "v3.3.1"
+    rev: "v3.3.8"
     hooks:
       - id: pylint
         name: pylint
@@ -241,7 +241,7 @@ repos:
         additional_dependencies: [pylint]
 
   - repo: https://github.com/nbQA-dev/nbQA
-    rev: 1.9.0
+    rev: 1.9.1
     hooks:
       - id: nbqa-pydocstyle
         name: nbqa-pydocstyle
@@ -251,8 +251,6 @@ repos:
         require_serial: true
         types_or: [jupyter, markdown]
         additional_dependencies: [pydocstyle]
-        env:
-          PYTHONIOENCODING: utf-8
 
   # - repo: https://github.com/christophmeissner/pytest-pre-commit
   #   rev: 1.0.0
@@ -269,7 +267,7 @@ repos:
   #       additional_dependencies: [pytest-html]
 
   - repo: https://github.com/codespell-project/codespell
-    rev: v2.3.0
+    rev: v2.4.1
     hooks:
       - id: codespell
         additional_dependencies:
