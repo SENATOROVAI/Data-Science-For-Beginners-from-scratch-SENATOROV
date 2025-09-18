@@ -1,4 +1,4 @@
-"""cpython."""
+"""Task cpython."""
 
 # # Введение в Python и CPython
 # 1. Что такое CPython и чем он отличается от Python?
