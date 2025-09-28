@@ -1,2 +1,2 @@
 # Data-Science-For-Beginners-from-scratch-SENATOROV
-Командный репозиторий.
+[Командный репозиторий.](https://t.me/RuslanSenatorov)
