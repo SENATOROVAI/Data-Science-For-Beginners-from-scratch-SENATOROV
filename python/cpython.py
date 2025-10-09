@@ -16,7 +16,7 @@
 # * C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\python.exe
 
 # 8. Что содержится в папке include в CPython?
-# https://github.com/python/cpython
+# * файлы с окончанием .h языка C которые описывает внутренние структуры  интерпретатора.
 # 9. Где можно найти исходный код CPython дайте ссылку на репозиторий гитхаб
 # * https://github.com/python/cpython
 # 10. (опционально) Как работает интерпретатор CPython при выполнении кода?
