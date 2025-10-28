@@ -2,3 +2,21 @@
 formats = "ipynb,py:light"
 cell_metadata_filter = "-all"
 notebook_metadata_filter = "-all"
+
+[project]
+name = "data-science-for-beginners-from-scratch-senatorov"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "savemysoul382",email = "serjke88@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "requests (>=2.32.5,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

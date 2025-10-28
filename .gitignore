@@ -240,9 +240,9 @@ coverage/
 
 
 
-*.png
-*.jpg
-*.jpeg
+#*.png
+#*.jpg
+#*.jpeg
 *.zip
 *.rar
 *.gif
@@ -251,12 +251,12 @@ coverage/
 # Common binary file extensions
 
 # Images
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.bmp
-*.tiff
+#*.png
+#*.jpg
+#*.jpeg
+#*.gif
+#*.bmp
+#*.tiff
 *.ico
 # Additional image formats
 *.heic  # High Efficiency Image File Format, commonly used by Apple
@@ -333,3 +333,4 @@ coverage/
 
 /Math/calculus/theory
 /Math/school_theory
+SENATOROV/
