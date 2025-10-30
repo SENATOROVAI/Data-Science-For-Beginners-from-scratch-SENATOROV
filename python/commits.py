@@ -24,3 +24,4 @@
 # Сделайте фиктивный коммит с типом docs, добавляющий или улучшающий документацию для вашей новой функции.
 # Сделайте фиктивный коммит с типом test, добавляющий тесты для этой же функции.
 #     - git commit -m "docs: add documentation for generate report function"
+#     - git commit -m "test: add test for generate report function"
