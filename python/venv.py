@@ -16,8 +16,8 @@
 # 3. Вставьте скрин вашего терминала, где вы активировали сначала venv, потом conda, назовите окружение "SENATOROV"
 #     ![image.png](attachment:image.png)
 # 4. Как установить необходимые пакеты внутрь виртуального окружения для conda/venv?
-#     - активировать виртуальное окружение, conda activate venv
-#     - устанавливаешь пакеты с помощью conda install, conda install numpy pandas
+#     - активировать виртуальное окружение, conda activate venv/source activate
+#     - устанавливаешь пакеты с помощью conda install/pip install, conda install numpy pandas/pip install numpy
 # 5. Что делают эти команды?
 #     - pip freeze > requirements.txt, Сохраняет список всех установленных пакетов (и их версий) в файл requirements.txt
 #     - conda env export > environment.yml, Экспортирует текущее окружение Conda в YAML-файл environment.yml
