@@ -33,7 +33,7 @@
 # environment.ymlpip freeze -> requirements.txt
 # conda env export -> environment.yml
 # 6) вставьте скрин, где будет видна папка VENV в вашем репозитории а также файлы зависимостей requirements.txt и environment.yml, файлы должны содержать зависимости
-# - conda (![image-4.png](attachment:image-4.png))
+# - conda ё(![image-4.png](attachment:image-4.png))
 # - venv (![image-5.png](attachment:image-5.png))
 # 7) Что делают эти команды?
 # - pip install -r requirements.txt - Устанавливают зависимости в текущее окружение
