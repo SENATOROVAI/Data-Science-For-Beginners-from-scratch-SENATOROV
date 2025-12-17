@@ -15,4 +15,4 @@
 - Обновление интро,внедрение раздела о нас, договора, средства коммуникации, спасибо [ViktorVinogradov89](https://github.com/ViktorVinogradov89)
 - Улучшение курса [множественная регрессия](https://stepik.org/lesson/1792608/step/10?unit=1818297), внедрение Data Leakage, спасибо [smrnvdn](https://github.com/smrnvdn)
 - Улучшение курса [множественной регрессии](https://stepik.org/lesson/1792810/step/2?auth=login&unit=1818500), внедрение логической связи вывода матричной формы SSE, спасибо [rizespbya](https://github.com/rizespbya)
-- Улучшение процесса обучения студентов,внедрён аудиопересказ, спасибо [Ekubbo](https://github.com/Ekubbo) 
+- Улучшение курса, множественной регрессии](https://stepik.org/lesson/1792810/step/2?auth=login&unit=1818500), внедрён аудиопересказ, спасибо [Ekubbo](https://github.com/Ekubbo) 
