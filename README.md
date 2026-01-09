@@ -5,6 +5,7 @@
 - Улучшен [интро](https://github.com/SENATOROVAI/intro/blob/main/README.md),[обновлена структура](https://github.com/SENATOROVAI/intro/issues/10), спасибо [savemysoul382](https://github.com/savemysoul382)
 - Улучшен [ишьюс git](https://github.com/SENATOROVAI/intro-cs/issues/1), [обновлена структура](https://github.com/SENATOROVAI/intro-cs/issues/15), спасибо [savemysoul382](https://github.com/savemysoul382)
 - [Тестирование функционала](https://github.com/SENATOROVAI/intro/issues/11), спасибо [smrnvdn](https://github.com/smrnvdn)
+- Улучшено описание [3 группы](https://github.com/SENATOROVAI/Math-Data-Analysis/issues/1), добавлены этапы пайплана, спасибо [savemysoul382](https://github.com/savemysoul382)
 
 # Другие улучшения 
 - Опечатка в курсе по [множественной регрессии](https://stepik.org/lesson/1792642/step/10?auth=login&unit=1818331), некорректная формулировка, спасибо [rizespbya](https://github.com/rizespbya)
@@ -14,3 +15,5 @@
 - Обновление интро,внедрение раздела о нас, договора, средства коммуникации, спасибо [ViktorVinogradov89](https://github.com/ViktorVinogradov89)
 - Улучшение курса [множественная регрессия](https://stepik.org/lesson/1792608/step/10?unit=1818297), внедрение Data Leakage, спасибо [smrnvdn](https://github.com/smrnvdn)
 - Улучшение курса [множественной регрессии](https://stepik.org/lesson/1792810/step/2?auth=login&unit=1818500), внедрение логической связи вывода матричной формы SSE, спасибо [rizespbya](https://github.com/rizespbya)
+- Улучшение курса, [множественной регрессии](https://stepik.org/lesson/1792848/step/2?unit=1818537), внедрён аудиопересказ, спасибо [Ekubbo](https://github.com/Ekubbo) 
+
