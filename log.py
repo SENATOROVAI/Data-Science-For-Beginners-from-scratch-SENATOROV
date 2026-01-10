@@ -15,3 +15,13 @@
 # 4. https://github.com/SENATOROVAI/intro-cs/issues/6 - сделал пулл
 # 5. https://github.com/SENATOROVAI/intro-cs/issues/4 - сделал пулл
 #
+
+# 10/01
+#
+# 1. Сделал из закрыл
+# https://github.com/SENATOROVAI/intro-cs/issues/6
+# https://github.com/SENATOROVAI/intro-cs/issues/4
+#
+# 2. Разобрался как принимать и делать ревью
+#
+# 3. Сделал: https://github.com/SENATOROVAI/intro-cs/issues/7

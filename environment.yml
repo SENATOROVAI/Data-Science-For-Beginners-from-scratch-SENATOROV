@@ -1,0 +1,14 @@
+name: SENATOROV
+channels:
+  - defaults
+dependencies:
+  - certifi=2020.6.20=pyhd3eb1b0_3
+  - pip=10.0.1=py35_0
+  - python=3.5.6=he025d50_0
+  - setuptools=40.2.0=py35_0
+  - ucrt=10.0.22621.0=haa95532_0
+  - vc=14.3=h2df5915_10
+  - vc14_runtime=14.44.35208=h4927774_10
+  - wheel=0.37.1=pyhd3eb1b0_0
+  - wincertstore=0.2=py35hfebbdb8_0
+prefix: C:\Users\demya\anaconda3\envs\SENATOROV
