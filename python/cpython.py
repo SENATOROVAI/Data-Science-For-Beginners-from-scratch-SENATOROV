@@ -1,3 +1,14 @@
+# ---
+# jupyter:
+#   jupytext:
+#     formats: ipynb,py:light
+#     text_representation:
+#       extension: .py
+#       format_name: light
+#       format_version: '1.5'
+#       jupytext_version: 1.16.4
+# ---
+
 """Квиз и практика по пайтон."""
 
 # 1. Что такое CPython и чем он отличается от Python?

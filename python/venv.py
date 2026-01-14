@@ -1,3 +1,18 @@
+# ---
+# jupyter:
+#   jupytext:
+#     formats: ipynb,py:light
+#     text_representation:
+#       extension: .py
+#       format_name: light
+#       format_version: '1.5'
+#       jupytext_version: 1.16.4
+#   kernelspec:
+#     display_name: base
+#     language: python
+#     name: python3
+# ---
+
 """[TASK] Виртуальное окружение."""
 
 # 1. Что делает команда python -m venv venv?
@@ -55,7 +70,7 @@
 # 1. Активируйте окружение: `conda activate env_name` (или `source activate env_name` на Linux/macOS)
 # 2. Используйте conda: `conda install имя_пакета` или pip: `pip install имя_пакета`
 #
-# 5. Что делают эти команды?
+# 3. Что делают эти команды?
 #    pip freeze > requirements.txt
 #    conda env export > environment.yml
 #
@@ -95,7 +110,6 @@
 #
 # Обычно в conda, так как это уже готовая сборка под DS
 # дата сайнинисты используют обычно conda из-за того, что она специально настроена и имеет нужные пакеты для работы с DS
-#
 #
 # 9. вставьте скрин где будет видно, Выбор интерпретатора Python (conda) в VS Code/cursor
 #
