@@ -25,3 +25,12 @@
 # 2. Разобрался как принимать и делать ревью
 #
 # 3. Сделал: https://github.com/SENATOROVAI/intro-cs/issues/7
+
+# 14/01
+# 1. Сделал два ревью
+# 2. Сделал два ишью:
+# https://github.com/SENATOROVAI/intro-cs/issues/1
+# https://github.com/SENATOROVAI/intro-cs/issues/5
+
+# 22/01
+# 1. Сделал ишью: https://github.com/SENATOROVAI/intro-cs/issues/3
