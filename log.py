@@ -1,0 +1,1 @@
+"""Descriptions of passed lessons."""
