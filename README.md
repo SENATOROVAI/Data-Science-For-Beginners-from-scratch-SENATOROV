@@ -6,6 +6,8 @@
 - Улучшен [ишьюс git](https://github.com/SENATOROVAI/intro-cs/issues/1), [обновлена структура](https://github.com/SENATOROVAI/intro-cs/issues/15), спасибо [savemysoul382](https://github.com/savemysoul382)
 - [Тестирование функционала](https://github.com/SENATOROVAI/intro/issues/11), спасибо [smrnvdn](https://github.com/smrnvdn)
 - Улучшено описание [3 группы](https://github.com/SENATOROVAI/Math-Data-Analysis/issues/1), добавлены этапы пайплана, спасибо [savemysoul382](https://github.com/savemysoul382)
+- Исправлена опечатка **where** [ишьюс Cpython](https://github.com/SENATOROVAI/intro-cs/issues/4), спасибо [SERG-1613](https://github.com/SERG-1613)
+
 
 # Другие улучшения 
 - Опечатка в курсе по [множественной регрессии](https://stepik.org/lesson/1792642/step/10?auth=login&unit=1818331), некорректная формулировка, спасибо [rizespbya](https://github.com/rizespbya)
