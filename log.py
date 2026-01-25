@@ -34,3 +34,4 @@
 
 # 22/01
 # 1. Сделал ишью: https://github.com/SENATOROVAI/intro-cs/issues/3
+# 2. Сделал ишью: https://github.com/SENATOROVAI/intro-cs/issues/2
