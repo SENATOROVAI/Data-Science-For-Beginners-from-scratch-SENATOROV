@@ -19,4 +19,4 @@
 - Улучшение курса [SVD](https://stepik.org/lesson/1863889/step/1?unit=1889025), исправлена опечатка подстановки, спасибо [rizespbya](https://github.com/rizespbya)
 
 https://t.me/RuslanSenatorov
-
+https://t.me/SENATOROVAI
