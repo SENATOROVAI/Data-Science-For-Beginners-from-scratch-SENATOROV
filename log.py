@@ -1,11 +1,11 @@
 """Лог уроков."""
 
-# 30/12
+# 30/12/25
 #
 # 1. Продолжаю интро из Сенаторов АИ на 7 пункте
 #
 
-# 07/01
+# 07/01/26
 #
 # 1. Доделаны все квизы
 # 2. Пересмотрены по несколько раз видео:
@@ -16,7 +16,7 @@
 # 5. https://github.com/SENATOROVAI/intro-cs/issues/4 - сделал пулл
 #
 
-# 10/01
+# 10/01/26
 #
 # 1. Сделал из закрыл
 # https://github.com/SENATOROVAI/intro-cs/issues/6
@@ -26,12 +26,15 @@
 #
 # 3. Сделал: https://github.com/SENATOROVAI/intro-cs/issues/7
 
-# 14/01
+# 14/01/26
 # 1. Сделал два ревью
 # 2. Сделал два ишью:
 # https://github.com/SENATOROVAI/intro-cs/issues/1
 # https://github.com/SENATOROVAI/intro-cs/issues/5
 
-# 22/01
+# 22/01/26
 # 1. Сделал ишью: https://github.com/SENATOROVAI/intro-cs/issues/3
 # 2. Сделал ишью: https://github.com/SENATOROVAI/intro-cs/issues/2
+
+# 27/01/26
+# 1. Сделал ишью: https://github.com/SENATOROVAI/intro-cs/issues/8
