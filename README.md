@@ -6,6 +6,8 @@
 - Улучшен [ишьюс git](https://github.com/SENATOROVAI/intro-cs/issues/1), [обновлена структура](https://github.com/SENATOROVAI/intro-cs/issues/15), спасибо [savemysoul382](https://github.com/savemysoul382)
 - [Тестирование функционала](https://github.com/SENATOROVAI/intro/issues/11), спасибо [smrnvdn](https://github.com/smrnvdn)
 - Улучшено описание [3 группы](https://github.com/SENATOROVAI/Math-Data-Analysis/issues/1), добавлены этапы пайплана, спасибо [savemysoul382](https://github.com/savemysoul382)
+- Исправлена опечатка **where** [ишьюс Cpython](https://github.com/SENATOROVAI/intro-cs/issues/16), спасибо [SERG-1613](https://github.com/SERG-1613)
+
 
 # Другие улучшения 
 - Опечатка в курсе по [множественной регрессии](https://stepik.org/lesson/1792642/step/10?auth=login&unit=1818331), некорректная формулировка, спасибо [rizespbya](https://github.com/rizespbya)
@@ -17,6 +19,6 @@
 - Улучшение курса [множественной регрессии](https://stepik.org/lesson/1792810/step/2?auth=login&unit=1818500), внедрение логической связи вывода матричной формы SSE, спасибо [rizespbya](https://github.com/rizespbya)
 - Улучшение курса, [множественной регрессии](https://stepik.org/lesson/1792848/step/2?unit=1818537), внедрён аудиопересказ, спасибо [Ekubbo](https://github.com/Ekubbo) 
 - Улучшение курса [SVD](https://stepik.org/lesson/1863889/step/1?unit=1889025), исправлена опечатка подстановки, спасибо [rizespbya](https://github.com/rizespbya)
-
+- Опечатка в курсе по [Линтерам](https://stepik.org/lesson/1711770/step/13?unit=1735194), "автоматически", спасибо [dshilin](https://github.com/dshilin)
 https://t.me/RuslanSenatorov
 https://t.me/SENATOROVAI
