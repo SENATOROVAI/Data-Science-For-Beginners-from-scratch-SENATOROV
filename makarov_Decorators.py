@@ -1,3 +1,10 @@
+# # Декораторы
+
+# ### Объекты первого класса
+
+# Присвоение функции переменной
+
+# +
 # объявим функцию
 import functools
 import time
@@ -7,12 +14,18 @@ def say_hello(name):
     print(f"Привет, {name}!")
 
 
+# -
+
 # присвоим эту функцию переменной (без скобок)
 say_hello_function = say_hello
 # вызовем функцию из новой переменной
 say_hello_function("Алексей")
 
 
+# Передача функции в качестве аргумента другой функции
+
+
+# +
 def simple_calculator(operation, a, b):
     return operation(a, b)
 
@@ -33,7 +46,14 @@ def divide(a, b):
     return a / b
 
 
+# -
+
 simple_calculator(divide, 1, 3)
+
+
+# ### Внутренние функции
+
+# Вызов внутренней функции
 
 
 def outer():
@@ -49,7 +69,12 @@ def outer():
 
 outer()
 
+
+# +
 # inner()
+# -
+
+# Возвращение функции из функции и замыкание
 
 
 def create_multiplier(factor):
@@ -75,6 +100,12 @@ triple = create_multiplier(factor=3)
 triple(number=2)
 
 
+# ### Знакомство с декораторами
+
+# Простой декоратор
+
+
+# +
 def simple_decorator(func):
     def wrapper():
         print("Текст до вызова функции func().")
@@ -88,9 +119,14 @@ def say_hello():
     print("Привет!")
 
 
+# -
+
 say_hello = simple_decorator(say_hello)
 
 say_hello()
+
+
+# Конструкция @decorator
 
 
 @simple_decorator
@@ -101,12 +137,17 @@ def say_hi():
 say_hi()
 
 
-# @simple_decorator
-# def say_hello_with_name(name):
-#     print(f"Привет, {name}!")
+# Функции с аргументами
 
 
-# # say_hello_with_name('Алексей')
+@simple_decorator
+def say_hello_with_name(name):
+    print(f"Привет, {name}!")
+
+
+# +
+# say_hello_with_name('Алексей')
+# -
 
 
 def decorator_with_name_argument(func):
@@ -143,6 +184,9 @@ def say_hello_with_argument(name):
 say_hello_with_argument("Алексей")
 
 
+# Возвращение значения декорируемой функции
+
+
 def another_decorator(func):
     def wrapper(*args, **kwargs):
         print("Текст внутренней функции.")
@@ -177,6 +221,9 @@ def return_name(name):
 returned_value = return_name("Алексей")
 
 print(returned_value)
+
+
+# Декоратор @functools.wraps
 
 
 def square(x):
@@ -246,6 +293,11 @@ power(2, 3)
 power.__doc__
 
 
+# ### Примеры декораторов
+
+# Создание логов
+
+
 def logging(func):
     def wrapper(*args, **kwargs):
         print(f"Calling {func.__name__} with args: {args}, kwargs: {kwargs}")
@@ -256,12 +308,18 @@ def logging(func):
     return wrapper
 
 
+# +
 @logging
 def power(x, n):
     return x**n
 
 
 power(5, 3)
+
+
+# -
+
+# Время исполнения функции
 
 
 def timer(func):
@@ -275,6 +333,7 @@ def timer(func):
     return wrapper
 
 
+# +
 @timer
 def delayed_function(t):
     time.sleep(t)
@@ -282,6 +341,13 @@ def delayed_function(t):
 
 
 delayed_function(2)
+
+
+# -
+
+# ### Типы методов
+
+# Методы экземпляра
 
 
 class CatClass:
@@ -297,9 +363,15 @@ class CatClass:
 cat = CatClass(color="black")
 cat.info()
 
+
+# +
 # CatClass.info()
 
+# +
 # CatClass.color
+# -
+
+# Методы класса
 
 
 class CatClass:
@@ -321,6 +393,9 @@ class CatClass:
 CatClass.species
 
 CatClass.get_species()
+
+
+# Статические методы
 
 
 class CatClass:
@@ -351,6 +426,11 @@ cat = CatClass("gray")
 cat.convert_to_pounds(5)
 
 
+# ### Декорирование класса
+
+# Декорирование методов
+
+
 class CatClass:
 
     @logging
@@ -367,6 +447,9 @@ class CatClass:
 cat = CatClass("black")
 
 cat.info()
+
+
+# Декорирование всего класса
 
 
 @timer
@@ -409,6 +492,9 @@ class CatClass:
 CatClass.species
 
 
+# ### Несколько декораторов
+
+
 @logging
 @timer
 def delayed_function(t):
@@ -418,15 +504,22 @@ def delayed_function(t):
 
 delayed_function(2)
 
-
+# +
 # не забудем заново объявить функцию без декораторов
+
+
 def delayed_function(t):
     time.sleep(t)
     return "execution completed"
 
 
+# -
+
 delayed_function = logging(timer(delayed_function))
 delayed_function(2)
+
+
+# ### Декораторы с аргументами
 
 
 def repeat(n_times):
