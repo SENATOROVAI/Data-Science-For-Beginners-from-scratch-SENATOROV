@@ -20,3 +20,4 @@
 - Улучшение курса, [множественной регрессии](https://stepik.org/lesson/1792848/step/2?unit=1818537), внедрён аудиопересказ, спасибо [Ekubbo](https://github.com/Ekubbo) 
 - Улучшение курса [SVD](https://stepik.org/lesson/1863889/step/1?unit=1889025), исправлена опечатка подстановки, спасибо [rizespbya](https://github.com/rizespbya)
 - Опечатка в курсе по [Линтерам](https://stepik.org/lesson/1711770/step/13?unit=1735194), "автоматически", спасибо [dshilin](https://github.com/dshilin)
+- Обновление задания в курсе по [Линтерам](https://github.com/SENATOROVAI/python-from-zero-to-open-source-stepik/issues/3), внедрение [контейнера UBUNTU](https://stepik.org/lesson/1719986/step/1?unit=1743519) "автоматически", спасибо [stokato](https://github.com/stokato/) 
