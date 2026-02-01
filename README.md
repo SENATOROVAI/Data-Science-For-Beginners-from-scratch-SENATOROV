@@ -21,4 +21,5 @@
 - Улучшение курса [SVD](https://stepik.org/lesson/1863889/step/1?unit=1889025), исправлена опечатка подстановки, спасибо [rizespbya](https://github.com/rizespbya)
 - Опечатка "автоматически" в курсе по [линтерам](https://stepik.org/lesson/1711770/step/13?unit=1735194), спасибо [dshilin](https://github.com/dshilin)
 - Внедрение контейнера UBUNTU в курс по [линтерам](https://stepik.org/lesson/1719986/step/1?unit=1743519), [ишьюс](https://github.com/SENATOROVAI/python-from-zero-to-open-source-stepik/issues/3), спасибо [stokato](https://github.com/stokato/)
-- Не рабочий сервис в курсе [линтеры](https://stepik.org/lesson/1719986/step/1?unit=1743519), [ишьюс](https://github.com/SENATOROVAI/python-from-zero-to-open-source-stepik/issues/4), , спасибо [dshilin](https://github.com/dshilin) 
+- Не рабочий сервис в курсе [линтеры](https://stepik.org/lesson/1719986/step/1?unit=1743519), [ишьюс](https://github.com/SENATOROVAI/python-from-zero-to-open-source-stepik/issues/4), , спасибо [dshilin](https://github.com/dshilin)
+- Нерабочая ссылка [Холецкий](https://stepik.org/lesson/1886776/step/3?unit=1912268), [ишьюс](https://github.com/SENATOROVAI/cholesky-stepik/issues/2), спасибо [Jazzyflavor](https://github.com/Jazzyflavor) доп. акк [Jazzyflavor](https://github.com/J4zzyflavor)
