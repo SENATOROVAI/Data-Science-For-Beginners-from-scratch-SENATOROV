@@ -28,6 +28,7 @@
 - Ошибка в описании задания [Градиентный спуск](https://stepik.org/lesson/1829058/step/2?unit=1855081), [ишьюс](https://github.com/SENATOROVAI/multy-linear-regression-gradient-descent-stepik/issues/1), спасибо  [J4zzyflavor](https://github.com/J4zzyflavor) доп. акк  [Jazzyflavor](https://github.com/Jazzyflavor)
 - Ошибка в выводе задания [Холецкий](https://stepik.org/lesson/1886772/step/4?unit=1912264), [ишьюс](https://github.com/SENATOROVAI/cholesky-stepik/issues/1), спасибо  [J4zzyflavor](https://github.com/J4zzyflavor) доп. акк  [Jazzyflavor](https://github.com/Jazzyflavor)
 - Нет V^T в итоговой записи и у 2 айгенвелью 3 компонента без "-" [SVD](https://stepik.org/lesson/1832067/step/1?unit=1857101),[ишьюс](https://github.com/SENATOROVAI/svd-stepik/issues/1), спасибо [rizespbya](https://github.com/rizespbya)
+- Опечатка в слове "константа", курс [GD](https://stepik.org/lesson/1829077/step/13?unit=1855099), [ишьюс](https://github.com/SENATOROVAI/multy-linear-regression-gradient-descent-stepik/issues/2), спасибо [Lookmir](https://github.com/Lookmir)
 
 # Улучшение организации
 - Обновление интро,внедрение раздела о нас, договора, средства коммуникации, спасибо [ViktorVinogradov89](https://github.com/ViktorVinogradov89)
