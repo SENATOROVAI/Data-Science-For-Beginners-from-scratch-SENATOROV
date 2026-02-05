@@ -7,14 +7,15 @@
 - [Тестирование функционала](https://github.com/SENATOROVAI/intro/issues/11), спасибо [smrnvdn](https://github.com/smrnvdn)
 - Улучшено описание [3 группы](https://github.com/SENATOROVAI/Math-Data-Analysis/issues/1), добавлены этапы пайплана, спасибо [savemysoul382](https://github.com/savemysoul382)
 - Исправлена опечатка **where** [ишьюс Cpython](https://github.com/SENATOROVAI/intro-cs/issues/16), спасибо [SERG-1613](https://github.com/SERG-1613)
+- Обновлён pre-commit **codespell** [pull](https://github.com/SENATOROVAI/Data-Science-For-Beginners-from-scratch-SENATOROV/pull/546), спасибо [gorop51-2](https://github.com/gorop51-2)
 
 
-# Другие улучшения 
+# Улучшения курсов
 - Опечатка в курсе по [множественной регрессии](https://stepik.org/lesson/1792642/step/10?auth=login&unit=1818331), некорректная формулировка, спасибо [rizespbya](https://github.com/rizespbya)
 - Опечатка в курсе по [множественной регрессии](https://stepik.org/lesson/1792746/step/1?unit=1818436), формула обратной матрицы, спасибо [rizespbya](https://github.com/rizespbya)
 - Улучшение курса [множественной регрессии](https://stepik.org/lesson/1792746/step/1?unit=1818436), внедрение хэлперов и курса академ. математики, спасибо [rizespbya](https://github.com/rizespbya)
 - Улучшение курса [простая регрессия](https://stepik.org/lesson/1734634/step/3?unit=1758544), внедрение лупы и доп. заданий python, спасибо  [J4zzyflavor](https://github.com/J4zzyflavor) доп. акк  [Jazzyflavor](https://github.com/Jazzyflavor)
-- Обновление интро,внедрение раздела о нас, договора, средства коммуникации, спасибо [ViktorVinogradov89](https://github.com/ViktorVinogradov89)
+
 - Улучшение курса [множественная регрессия](https://stepik.org/lesson/1792608/step/10?unit=1818297), внедрение Data Leakage, спасибо [smrnvdn](https://github.com/smrnvdn)
 - Улучшение курса [множественной регрессии](https://stepik.org/lesson/1792810/step/2?auth=login&unit=1818500), внедрение логической связи вывода матричной формы SSE, спасибо [rizespbya](https://github.com/rizespbya)
 - Улучшение курса, [множественной регрессии](https://stepik.org/lesson/1792848/step/2?unit=1818537), внедрён аудиопересказ, спасибо [Ekubbo](https://github.com/Ekubbo) 
@@ -27,3 +28,7 @@
 - Ошибка в описании задания [Градиентный спуск](https://stepik.org/lesson/1829058/step/2?unit=1855081), [ишьюс](https://github.com/SENATOROVAI/multy-linear-regression-gradient-descent-stepik/issues/1), спасибо  [J4zzyflavor](https://github.com/J4zzyflavor) доп. акк  [Jazzyflavor](https://github.com/Jazzyflavor)
 - Ошибка в выводе задания [Холецкий](https://stepik.org/lesson/1886772/step/4?unit=1912264), [ишьюс](https://github.com/SENATOROVAI/cholesky-stepik/issues/1), спасибо  [J4zzyflavor](https://github.com/J4zzyflavor) доп. акк  [Jazzyflavor](https://github.com/Jazzyflavor)
 - Нет V^T в итоговой записи и у 2 айгенвелью 3 компонента без "-" [SVD](https://stepik.org/lesson/1832067/step/1?unit=1857101),[ишьюс](https://github.com/SENATOROVAI/svd-stepik/issues/1), спасибо [rizespbya](https://github.com/rizespbya)
+- Опечатка в слове "константа", курс [GD](https://stepik.org/lesson/1829077/step/13?unit=1855099), [ишьюс](https://github.com/SENATOROVAI/multy-linear-regression-gradient-descent-stepik/issues/2), спасибо [Lookmir](https://github.com/Lookmir)
+
+# Улучшение организации
+- Обновление интро,внедрение раздела о нас, договора, средства коммуникации, спасибо [ViktorVinogradov89](https://github.com/ViktorVinogradov89)
