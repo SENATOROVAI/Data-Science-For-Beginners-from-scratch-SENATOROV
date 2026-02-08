@@ -8,6 +8,7 @@
 - Улучшено описание [3 группы](https://github.com/SENATOROVAI/Math-Data-Analysis/issues/1), добавлены этапы пайплана, спасибо [savemysoul382](https://github.com/savemysoul382)
 - Исправлена опечатка **where** [ишьюс Cpython](https://github.com/SENATOROVAI/intro-cs/issues/16), спасибо [SERG-1613](https://github.com/SERG-1613)
 - Обновлён pre-commit **codespell** [ишьюс](https://github.com/SENATOROVAI/Data-Science-For-Beginners-from-scratch-SENATOROV/issues/551), [pull](https://github.com/SENATOROVAI/Data-Science-For-Beginners-from-scratch-SENATOROV/pull/552), спасибо [gorop51-2](https://github.com/gorop51-2)
+- Создание новой ветки при сдаче ДЗ [ишьюс ревью](https://github.com/SENATOROVAI/Data-Science-For-Beginners-from-scratch-SENATOROV/issues/557), спасибо [SERG-1613](https://github.com/SERG-1613)
 
 
 # Улучшения курсов
