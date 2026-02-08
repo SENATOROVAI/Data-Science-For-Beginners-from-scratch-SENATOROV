@@ -7,7 +7,8 @@
 - [Тестирование функционала](https://github.com/SENATOROVAI/intro/issues/11), спасибо [smrnvdn](https://github.com/smrnvdn)
 - Улучшено описание [3 группы](https://github.com/SENATOROVAI/Math-Data-Analysis/issues/1), добавлены этапы пайплана, спасибо [savemysoul382](https://github.com/savemysoul382)
 - Исправлена опечатка **where** [ишьюс Cpython](https://github.com/SENATOROVAI/intro-cs/issues/16), спасибо [SERG-1613](https://github.com/SERG-1613)
-- Обновлён pre-commit **codespell** [pull](https://github.com/SENATOROVAI/Data-Science-For-Beginners-from-scratch-SENATOROV/pull/546), спасибо [gorop51-2](https://github.com/gorop51-2)
+- Обновлён pre-commit **codespell** [ишьюс](https://github.com/SENATOROVAI/Data-Science-For-Beginners-from-scratch-SENATOROV/issues/551), [pull](https://github.com/SENATOROVAI/Data-Science-For-Beginners-from-scratch-SENATOROV/pull/552), спасибо [gorop51-2](https://github.com/gorop51-2)
+- Создание новой ветки при сдаче ДЗ, [ишьюс](https://github.com/SENATOROVAI/Data-Science-For-Beginners-from-scratch-SENATOROV/issues/557), спасибо [SERG-1613](https://github.com/SERG-1613)
 
 
 # Улучшения курсов
@@ -29,6 +30,8 @@
 - Ошибка в выводе задания [Холецкий](https://stepik.org/lesson/1886772/step/4?unit=1912264), [ишьюс](https://github.com/SENATOROVAI/cholesky-stepik/issues/1), спасибо  [J4zzyflavor](https://github.com/J4zzyflavor) доп. акк  [Jazzyflavor](https://github.com/Jazzyflavor)
 - Нет V^T в итоговой записи и у 2 айгенвелью 3 компонента без "-" [SVD](https://stepik.org/lesson/1832067/step/1?unit=1857101),[ишьюс](https://github.com/SENATOROVAI/svd-stepik/issues/1), спасибо [rizespbya](https://github.com/rizespbya)
 - Опечатка в слове "константа", курс [GD](https://stepik.org/lesson/1829077/step/13?unit=1855099), [ишьюс](https://github.com/SENATOROVAI/multy-linear-regression-gradient-descent-stepik/issues/2), спасибо [Lookmir](https://github.com/Lookmir)
+- Опечатка в слове "ортогонализации", курс [QR](https://stepik.org/lesson/1880356/step/3?unit=1905773), [ишьюс](https://github.com/SENATOROVAI/qr-stepik/issues/1), спасибо [svetlana-s88](https://github.com/svetlana-s88)
 
 # Улучшение организации
 - Обновление интро,внедрение раздела о нас, договора, средства коммуникации, спасибо [ViktorVinogradov89](https://github.com/ViktorVinogradov89)
+- Структурированна информация об организации, [ишьюс](https://github.com/SENATOROVAI/Data-Science-For-Beginners-from-scratch-SENATOROV/issues/547), спасибо [svetlana-s88](https://github.com/svetlana-s88) 
