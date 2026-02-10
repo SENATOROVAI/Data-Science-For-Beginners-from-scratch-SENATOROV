@@ -10,6 +10,7 @@
 - Обновлён pre-commit **codespell** [ишьюс](https://github.com/SENATOROVAI/Data-Science-For-Beginners-from-scratch-SENATOROV/issues/551), [pull](https://github.com/SENATOROVAI/Data-Science-For-Beginners-from-scratch-SENATOROV/pull/552), спасибо [gorop51-2](https://github.com/gorop51-2)
 - Идея создания новой ветки при сдаче ДЗ, [ишьюс](https://github.com/SENATOROVAI/Data-Science-For-Beginners-from-scratch-SENATOROV/issues/545), спасибо [dshilin](https://github.com/dshilin)
 - Реализация создания новой ветки при сдаче ДЗ, [ишьюс](https://github.com/SENATOROVAI/Data-Science-For-Beginners-from-scratch-SENATOROV/issues/557), спасибо [SERG-1613](https://github.com/SERG-1613)
+- Убрать из ишьюс python ссылку на инструкцию ревью, [ишьюс](https://github.com/SENATOROVAI/intro/issues/17), спасибо [stokato](https://github.com/stokato)
 
 
 # Улучшения курсов
