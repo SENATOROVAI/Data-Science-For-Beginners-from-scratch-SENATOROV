@@ -265,15 +265,3 @@ repos:
   #       pass_filenames: false
   #       always_run: true
   #       additional_dependencies: [pytest-html]
-
-  - repo: https://github.com/codespell-project/codespell
-    rev: v2.3.0
-    hooks:
-      - id: codespell
-        additional_dependencies:
-          - tomli
-        args:
-          - --ignore-regex=^\s*"image\/(jpeg|png|gif|bmp|tiff)":\s.*
-          - --ignore-regex=[A-Za-z0-9+/]{100,}
-          - --skip=*.js,*.html,*.css,*.svg",*.json,*.png,*.jpg,*.yml,*.yaml
-        
