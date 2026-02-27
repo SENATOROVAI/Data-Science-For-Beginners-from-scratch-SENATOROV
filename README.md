@@ -37,3 +37,7 @@
 # Улучшение организации
 - Обновление интро,внедрение раздела о нас, договора, средства коммуникации, спасибо [ViktorVinogradov89](https://github.com/ViktorVinogradov89)
 - Структурированна информация об организации, [ишьюс](https://github.com/SENATOROVAI/Data-Science-For-Beginners-from-scratch-SENATOROV/issues/547), спасибо [svetlana-s88](https://github.com/svetlana-s88) 
+
+# Тг канал Руслана
+https://t.me/RuslanSenatorov
+https://t.me/SENATOROVAI,
