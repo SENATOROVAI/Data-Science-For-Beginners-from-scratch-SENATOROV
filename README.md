@@ -40,3 +40,4 @@
 
 # Тг канал Руслана
 https://t.me/RuslanSenatorov
+https://t.me/SENATOROVAI,
