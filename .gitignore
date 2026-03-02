@@ -335,3 +335,8 @@ coverage/
 /Math/school_theory
 
 SENATOROV/
+
+countries.csv
+temperature.csv
+test.csv
+train.csv

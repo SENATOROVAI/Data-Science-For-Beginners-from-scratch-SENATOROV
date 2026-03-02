@@ -38,3 +38,6 @@
 
 # 27/01/26
 # 1. Сделал ишью: https://github.com/SENATOROVAI/intro-cs/issues/8
+
+# 22/02/26
+# 1. Сделал ишью: https://github.com/SENATOROVAI/python/issues/1
