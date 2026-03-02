@@ -17,3 +17,4 @@
 - Улучшение курса [множественной регрессии](https://stepik.org/lesson/1792810/step/2?auth=login&unit=1818500), внедрение логической связи вывода матричной формы SSE, спасибо [rizespbya](https://github.com/rizespbya)
 - Улучшение курса, [множественной регрессии](https://stepik.org/lesson/1792848/step/2?unit=1818537), внедрён аудиопересказ, спасибо [Ekubbo](https://github.com/Ekubbo) 
 
+https://t.me/RuslanSenatorov
