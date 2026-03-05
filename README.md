@@ -193,6 +193,7 @@ https://t.me/SENATOROVAI
 
 Telegram Founder:  
 https://t.me/RuslanSenatorov  
+g
 
 ---
 
