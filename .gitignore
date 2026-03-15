@@ -334,3 +334,4 @@ coverage/
 /Math/calculus/theory
 /Math/school_theory
 .pre-commit-cache/
+projects/vehicle-collection-cli/
