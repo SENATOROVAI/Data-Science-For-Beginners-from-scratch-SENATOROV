@@ -182,17 +182,7 @@ This repository is designed for:
 
 ## 📬 Contact
 
-Course page:  
-https://stepik.org/users/308359458/profile  
-
-YouTube:  
-https://youtube.com/SENATOROV  
-
-Telegram School:  
-https://t.me/SENATOROVAI  
-
-Telegram Founder:  
-https://t.me/RuslanSenatorov  
+#### https://SenatorovAI.com
 
 ---
 
