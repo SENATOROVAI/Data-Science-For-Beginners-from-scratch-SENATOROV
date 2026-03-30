@@ -31,6 +31,7 @@
 - Внедрение контейнера UBUNTU в курс по [линтерам](https://stepik.org/lesson/1719986/step/1?unit=1743519), [ишьюс](https://github.com/SENATOROVAI/python-from-zero-to-open-source-stepik/issues/3), спасибо [stokato](https://github.com/stokato/)
 - Не рабочий сервис в курсе [линтеры](https://stepik.org/lesson/1719986/step/1?unit=1743519), [ишьюс](https://github.com/SENATOROVAI/python-from-zero-to-open-source-stepik/issues/4), , спасибо [dshilin](https://github.com/dshilin)
 - Нерабочая ссылка [Холецкий](https://stepik.org/lesson/1886776/step/3?unit=1912268), [ишьюс](https://github.com/SENATOROVAI/cholesky-stepik/issues/2), спасибо  [J4zzyflavor](https://github.com/J4zzyflavor) доп. акк  [Jazzyflavor](https://github.com/Jazzyflavor)
+- 10:15 добавил описание для тэта нулевое θ0 [Холецкий](https://stepik.org/lesson/1886772/step/1?unit=1912264),[ишьюс](https://github.com/SENATOROVAI/cholesky-stepik/issues/4), спасибо [rizespbya](https://github.com/rizespbya)
 - Дублирование заданий [Холецкий](https://stepik.org/lesson/1886776/step/3?unit=1912268), [ишьюс](https://github.com/SENATOROVAI/cholesky-stepik/issues/3), спасибо  [J4zzyflavor](https://github.com/J4zzyflavor) доп. акк  [Jazzyflavor](https://github.com/Jazzyflavor)
 - Ошибка в описании задания [Градиентный спуск](https://stepik.org/lesson/1829058/step/2?unit=1855081), [ишьюс](https://github.com/SENATOROVAI/multy-linear-regression-gradient-descent-stepik/issues/1), спасибо  [J4zzyflavor](https://github.com/J4zzyflavor) доп. акк  [Jazzyflavor](https://github.com/Jazzyflavor)
 - Ошибка в выводе задания [Холецкий](https://stepik.org/lesson/1886772/step/4?unit=1912264), [ишьюс](https://github.com/SENATOROVAI/cholesky-stepik/issues/1), спасибо  [J4zzyflavor](https://github.com/J4zzyflavor) доп. акк  [Jazzyflavor](https://github.com/Jazzyflavor)
@@ -40,3 +41,149 @@
 # Улучшение организации
 - Обновление интро,внедрение раздела о нас, договора, средства коммуникации, спасибо [ViktorVinogradov89](https://github.com/ViktorVinogradov89)
 - Структурированна информация об организации, [ишьюс](https://github.com/SENATOROVAI/Data-Science-For-Beginners-from-scratch-SENATOROV/issues/547), спасибо [svetlana-s88](https://github.com/svetlana-s88) 
+
+---
+
+# Data Science For Beginners 🚀
+
+> Beginner-friendly course and practical materials for learning Data Science from scratch with Python, Machine Learning, and Mathematics.
+
+## 📌 About This Repository
+
+This repository contains structured materials, exercises, and practical examples for learning **Data Science from beginner to intermediate level**.
+
+You will learn:
+
+- Python for Data Science
+- NumPy & Pandas
+- Data Visualization
+- Statistics for Data Science
+- Machine Learning Basics
+- Supervised & Unsupervised Learning
+- Regression & Classification
+- Optimization Algorithms
+- Gradient Descent
+- Linear Models
+- Regularization (L1 / L2)
+- Model Evaluation
+- Practical ML Projects
+
+---
+
+## 🎯 Who Is This For?
+
+✅ Beginners in Data Science  
+✅ Python developers who want to learn ML  
+✅ Students learning Machine Learning  
+✅ Developers moving into AI / Data Analytics  
+
+---
+
+## 🛠 Technologies Used
+
+- Python 🐍
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-Learn
+- Jupyter Notebook
+- Machine Learning Algorithms
+
+---
+
+## 📂 Repository Structure
+
+```
+
+Data-Science-For-Beginners/
+│
+├── math/
+├── statistics/
+├── python/
+├── data_analysis/
+├── machine_learning/
+│   ├── regression/
+│   ├── classification/
+│   ├── optimization/
+│
+├── projects/
+└── notebooks/
+
+```
+
+---
+
+## 📈 Topics Covered
+
+### 🔵 Python for Data Science
+- Data types
+- Functions
+- OOP basics
+- Working with files
+
+### 🔵 Data Analysis
+- Data cleaning
+- Feature engineering
+- Exploratory Data Analysis (EDA)
+
+### 🔵 Statistics
+- Probability
+- Distributions
+- Hypothesis testing
+- Confidence intervals
+
+### 🔵 Machine Learning
+- Linear Regression
+- Logistic Regression
+- Gradient Descent
+- L1 & L2 Regularization
+- Decision Trees
+- KNN
+- Model evaluation metrics
+
+---
+
+## 🚀 Practical Projects
+
+You will build:
+
+- House price prediction model
+- Classification model
+- Data analysis project
+- Real dataset experiments
+
+---
+
+## 🔎 SEO Keywords (Optimized for Search)
+
+Data Science course  
+Data Science for beginners  
+Machine Learning Python  
+ML from scratch  
+Data Analysis Python  
+Statistics for Machine Learning  
+Python Machine Learning projects  
+Gradient Descent implementation  
+Linear Regression from scratch  
+
+---
+
+## ⭐ Why This Repository?
+
+This repository is designed for:
+
+- Deep understanding of algorithms
+- Practical implementation
+- Mathematical foundation
+- Production-ready mindset
+
+---
+
+## 📬 Contact
+
+#### https://SenatorovAI.com
+
+---
+
+⭐ If this project helps you — give it a star!
