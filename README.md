@@ -11,6 +11,9 @@
 - Идея создания новой ветки при сдаче ДЗ, [ишьюс](https://github.com/SENATOROVAI/Data-Science-For-Beginners-from-scratch-SENATOROV/issues/545), спасибо [dshilin](https://github.com/dshilin)
 - Реализация создания новой ветки при сдаче ДЗ, [ишьюс](https://github.com/SENATOROVAI/Data-Science-For-Beginners-from-scratch-SENATOROV/issues/557), спасибо [SERG-1613](https://github.com/SERG-1613)
 - Убрать из ишьюс python ссылку на инструкцию ревью, [ишьюс](https://github.com/SENATOROVAI/intro/issues/17), спасибо [stokato](https://github.com/stokato)
+- Улучшен [ишьюс Виртуальное окружение](https://github.com/SENATOROVAI/intro-cs/issues/7), [обновлено описание и добавлено видео](https://github.com/user-attachments/assets/eda6f086-4804-4dfa-80d7-172c301791a4), спасибо [solik220-bit](https://github.com/solik220-bit)
+
+
 
 
 # Улучшения курсов
