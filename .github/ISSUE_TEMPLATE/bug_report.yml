@@ -1,0 +1,89 @@
+name: Bug report
+title: "[BUG]"
+description: Create a bug report to help us address errors in the repository
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: >
+          <p>Attention! </p>
+          <b>We insert an error message from the terminal into the name of the issues!</b>
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      description: "Please confirm the following:"
+      options:
+        - label: I added a descriptive title.
+          required: true
+        - label: I searched through [existing issues](https://t.me/c/1937296927/3602/25534) and couldn't find a solution or duplicate issue.
+          required: true
+        - label: I searched on the web (e.g. Google) or [chatGPT](https://t.me/c/1937296927/2415/23729) and didn't find any helpful information.
+          required: true
+
+  - type: input
+    attributes:
+      label: "Hash commit / link"
+      description: >
+        If possible, provide a hash of your commit or just paste the link to it here
+      placeholder: "a0b0f414ae134aa1772d33bb930e5a960f9979e8"
+    validations:
+      required: false
+
+  - type: input
+    attributes:
+      label: "Video"
+      description: >
+        insert a link to a YouTube video where you demonstrate the problem and show how to reproduce it
+      placeholder: "link to the video"
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: "Attach a full screenshot and write what did you do to fix the problem?"
+      description: "Attach a full screenshot of your screen, which will show the entire desktop and your error"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "Error from the terminal / Code"
+      description: >
+        write the code or copy the error from the terminal and paste it here, also provide log file if possible
+      placeholder: |
+        scripts/build_directory_md.py:22: error: Function is missing a type annotation
+        [no-untyped-def]
+            def md_prefix(i):
+            ^
+        scripts/build_directory_md.py:32: error: Call to untyped function "md_prefix"
+        in typed context  [no-untyped-call]
+                        print(f"{md_prefix(i)} {new_part.replace('_', ' ').title()...
+                                ^~~~~~~~~~~~~
+        scripts/build_directory_md.py:46: error: Call to untyped function "md_prefix"
+        in typed context  [no-untyped-call]
+        print(f"{md_prefix(indent)} [{filename}]({url})")
+        ...
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "Expected behavior"
+      description: "Describe the behavior you expect. May include images or videos."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Actual behavior"
+      description: >
+        Actual behavior with a description of how to reproduce the problem
+      placeholder: |
+        ## Steps to Reproduce the Problem
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: true
