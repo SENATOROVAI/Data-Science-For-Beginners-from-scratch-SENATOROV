@@ -50,6 +50,10 @@
 # Откройте папку include и изучите её содержимое. Какое количество файлов на C там есть? 13181
 # Перейдите на [GitHub-репозиторий CPython](https://github.com/python/cpython) и найдите файл README. Прочитайте информацию о проекте.
 # #### Задание 3: Запуск файла с помощью CPython
+# ![image-3.png](attachment:image-3.png)
+# ![image-4.png](attachment:image-4.png)
 # #### Задание 4: Установка и использование PyPy
+# ![image-6.png](attachment:image-6.png)
+# #### Задание 5: Сравнение производительности CPython и PyPy
 # ![image-2.png](attachment:image-2.png)
 # ![image.png](attachment:image.png)
