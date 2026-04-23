@@ -31,6 +31,7 @@
 - Неправильно посчитан вектор u1 [SVD](https://stepik.org/lesson/1863989/step/2?unit=1889127),[ишьюс](https://github.com/SENATOROVAI/svd-stepik/issues/2), спасибо [Svetankova](https://github.com/Svetankova)
 - Матрица сигма не mxn [SVD](https://stepik.org/lesson/1865202/step/1?auth=login&unit=1890345),[ишьюс](https://github.com/SENATOROVAI/svd-stepik/issues/3), спасибо [Svetankova](https://github.com/Svetankova)
 - Опечатка "автоматически" в курсе по [линтерам](https://stepik.org/lesson/1711770/step/13?unit=1735194), спасибо [dshilin](https://github.com/dshilin)
+- Обновление названия репозитория в курсе по [линтерам](https://stepik.org/lesson/1711770/step/13?unit=1735194), [ишьюс](https://github.com/SENATOROVAI/python-open-source-standards-course/issues/15), спасибо [iVenok](https://github.com/iVenok)
 - Внедрение контейнера UBUNTU в курс по [линтерам](https://stepik.org/lesson/1719986/step/1?unit=1743519), [ишьюс](https://github.com/SENATOROVAI/python-from-zero-to-open-source-stepik/issues/3), спасибо [stokato](https://github.com/stokato/)
 - Не рабочий сервис в курсе [линтеры](https://stepik.org/lesson/1719986/step/1?unit=1743519), [ишьюс](https://github.com/SENATOROVAI/python-from-zero-to-open-source-stepik/issues/4), , спасибо [dshilin](https://github.com/dshilin)
 - Нерабочая ссылка [Холецкий](https://stepik.org/lesson/1886776/step/3?unit=1912268), [ишьюс](https://github.com/SENATOROVAI/cholesky-stepik/issues/2), спасибо  [J4zzyflavor](https://github.com/J4zzyflavor) доп. акк  [Jazzyflavor](https://github.com/Jazzyflavor)
