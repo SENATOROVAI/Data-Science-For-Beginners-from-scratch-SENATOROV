@@ -17,6 +17,7 @@
 
 
 # Улучшения курсов
+- Добавлен скрин с дискуссиями в регламент взаимодействия в курсах, спасибо [iVenok](https://github.com/iVenok) 
 - Опечатка в курсе по [множественной регрессии](https://stepik.org/lesson/1792642/step/10?auth=login&unit=1818331), некорректная формулировка, спасибо [rizespbya](https://github.com/rizespbya)
 - неправильно раскрывается (X@θ).T [множественной регрессии](https://stepik.org/lesson/1792813/step/1?discussion=12716622&unit=1818503), [ишьюс](https://github.com/SENATOROVAI/multy-linear-regression-stepik/issues/1), спасибо [rizespbya](https://github.com/rizespbya)
 - Формула обратной матрицы [множественная регрессия](https://stepik.org/lesson/1792746/step/1?unit=1818436), [ишьюс](https://github.com/SENATOROVAI/multy-linear-regression-stepik/issues/2), спасибо [rizespbya](https://github.com/rizespbya)
