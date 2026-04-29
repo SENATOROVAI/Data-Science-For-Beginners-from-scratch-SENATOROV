@@ -10,9 +10,8 @@
 # #### Основные определения
 
 # +
-from collections.abc import Iterator
+from collections.abc import Generator, Iterator
 from itertools import chain, count, cycle
-from typing import Generator
 
 for index in [1, 2, 3]:
     print(index)
@@ -47,7 +46,7 @@ print(f"A: {next(iterator_a)}")
 print(f"B: {next(iterator_b)}")
 # -
 
-iterable_object
+# iterable_object
 
 # +
 # print(f'A: {next(iterator_a)}')
@@ -89,7 +88,8 @@ for item_z in zip(iterable_object, iterable_object):
 # Возведение в квадрат
 
 class Square:
-    """Итератор, возводящий в квадрат числа из переданной последовательности."""
+    """Итератор, возводящий в квадрат числа из переданной
+    последовательности."""
 
     def __init__(self, seq: list[int]) -> None:
         """Инициализация итератора."""
@@ -120,7 +120,8 @@ for num_square in square_1:
 # Счетчик
 
 class Counter:
-    """Итератор, генерирующий последовательность целых чисел в заданном диапазоне."""
+    """Итератор, генерирующий последовательность целых чисел
+    в заданном диапазоне."""
 
     def __init__(self, start: int = 3, stop: int = 9) -> None:
         """Инициализирует итератор с заданными границами диапазона."""
@@ -304,8 +305,8 @@ for item_2 in iterator_d:
         break
 
 # +
-string = "Python"
-iterator_e = cycle(string)
+stringg = "Python"
+iterator_e = cycle(stringg)
 
 limit = 10
 for item_3 in iterator_e:
@@ -325,5 +326,3 @@ print(list(iterator))
 print(list(chain.from_iterable(["abc", "def"])))
 
 result_1 = sum(chain.from_iterable([[1, 2, 3], [4, 5, 6], [7, 8, 9]]))
-
-
