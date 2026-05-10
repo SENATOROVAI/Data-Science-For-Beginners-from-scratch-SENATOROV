@@ -36,3 +36,4 @@
 # Сообщение для коммита: test: add tests for generateReport function
 
 # **7. Отправьте сюда в комменты ссылку на ваши коммиты https://github.com/ВАШ-ЛОГИН/Data-Science-For-Beginners-from-scratch-SENATOROV/commits/main/**
+# https://github.com/Shn4yder/Data-Science-For-Beginners-from-scratch-SENATOROV/commits/main
