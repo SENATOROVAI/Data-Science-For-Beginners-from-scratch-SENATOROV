@@ -27,7 +27,10 @@
 #
 # Сообщение для коммита: style: normalize indentation and formatting in project
 
-# **5. Сделайте фиктивный коммит с типом docs, добавляющий или улучшающий документацию для вашей новой функции.
-# Сделайте фиктивный коммит с типом test, добавляющий тесты для этой же функции.**
+# **5. Сделайте фиктивный коммит с типом docs, добавляющий или улучшающий документацию для вашей новой функции.**
+#
+# Сообщение для коммита: docs: add description for generateReport function
 
-# **6. Отправьте сюда в комменты ссылку на ваши коммиты https://github.com/ВАШ-ЛОГИН/Data-Science-For-Beginners-from-scratch-SENATOROV/commits/main/**
+# **6. Сделайте фиктивный коммит с типом test, добавляющий тесты для этой же функции.**
+
+# **7. Отправьте сюда в комменты ссылку на ваши коммиты https://github.com/ВАШ-ЛОГИН/Data-Science-For-Beginners-from-scratch-SENATOROV/commits/main/**
