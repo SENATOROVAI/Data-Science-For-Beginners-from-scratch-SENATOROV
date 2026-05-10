@@ -32,5 +32,7 @@
 # Сообщение для коммита: docs: add description for generateReport function
 
 # **6. Сделайте фиктивный коммит с типом test, добавляющий тесты для этой же функции.**
+#
+# Сообщение для коммита: test: add tests for generateReport function
 
 # **7. Отправьте сюда в комменты ссылку на ваши коммиты https://github.com/ВАШ-ЛОГИН/Data-Science-For-Beginners-from-scratch-SENATOROV/commits/main/**
