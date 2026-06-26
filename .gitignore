@@ -333,3 +333,6 @@ coverage/
 
 /Math/calculus/theory
 /Math/school_theory
+SENATOROV/
+!python/images/
+!python/images/*.png
