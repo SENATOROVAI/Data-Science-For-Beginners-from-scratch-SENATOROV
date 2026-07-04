@@ -1,4 +1,4 @@
-"""This is a hometask "Task 5 commits" from Gosha Gosha."""
+"""This is a hometask "Task 5 commits" from Gosha  Gosha."""
 
 # # Ответы по Conventional Commits
 #
