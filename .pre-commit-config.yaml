@@ -134,7 +134,7 @@ repos:
         require_serial: true
         types_or: [jupyter, markdown]
         additional_dependencies:
-          - mypy
+          - mypy==1.13.0
           - pandas-stubs
           - git+https://github.com/numpy/numpy-stubs
           - mypy-extensions
@@ -159,6 +159,8 @@ repos:
           - --disallow-any-generics
           - --local-partial-types
           - --pretty
+          - --force-uppercase-builtins
+          - --force-union-syntax
           - --warn-unreachable
           - --warn-redundant-casts
           - --warn-return-any
