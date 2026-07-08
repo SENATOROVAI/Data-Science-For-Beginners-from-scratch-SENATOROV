@@ -87,6 +87,7 @@ print(weekdays + weekend)
 ["Понедельник"] * 2 + ["Вторник"] * 2
 
 # дан список
+# pylint: disable=duplicate-code
 week = [
     "Понедельник",
     "Вторник",
@@ -96,6 +97,7 @@ week = [
     "Суббота",
     "Воскресенье",
 ]
+# pylint: enable=duplicate-code
 # указав индекс элемента, его можно записать в переменную
 mon = week[0]
 print(mon)

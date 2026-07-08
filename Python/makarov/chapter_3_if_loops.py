@@ -155,6 +155,7 @@ for i in sorted_values:
 
 # +
 # пусть дан список с днями недели
+# pylint: disable=duplicate-code
 days = [
     "Понедельник",
     "Вторник",
@@ -164,6 +165,7 @@ days = [
     "Суббота",
     "Воскресенье",
 ]
+# pylint: enable=duplicate-code
 
 # выведем индекс (i) и сами элементы списка (day)
 for i, day in enumerate(days):
