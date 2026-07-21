@@ -1,3 +1,6 @@
+default_language_version:
+  python: python3.12
+
 repos:
   - repo: https://github.com/mwouts/jupytext
     rev: "v1.16.4b"
@@ -252,6 +255,8 @@ repos:
         require_serial: true
         types_or: [jupyter, markdown]
         additional_dependencies: [pydocstyle]
+
+
   # - repo: https://github.com/christophmeissner/pytest-pre-commit
   #   rev: 1.0.0
   #   hooks:
