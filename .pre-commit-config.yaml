@@ -158,8 +158,8 @@ repos:
           - --disallow-any-generics
           - --local-partial-types
           - --pretty
-          - --force-uppercase-builtins
-          - --force-union-syntax
+          # - --force-uppercase-builtins
+          # - --force-union-syntax
           - --warn-unreachable
           - --warn-redundant-casts
           - --warn-return-any
@@ -188,8 +188,8 @@ repos:
           - --disallow-any-generics
           - --local-partial-types
           - --pretty
-          - --force-uppercase-builtins
-          - --force-union-syntax
+          # - --force-uppercase-builtins
+          # - --force-union-syntax
           - --warn-unreachable
           - --warn-redundant-casts
           - --warn-return-any
