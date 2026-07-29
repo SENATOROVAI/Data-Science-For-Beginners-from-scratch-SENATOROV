@@ -13,10 +13,15 @@ print(2 + 2, 4 - 2, 2 * 2, 4 / 2, 2**3)
 print(7 // 2)
 print(7 % 2)
 
-print(4 > 2, 4 < 2, 4 >= 2, 4 <= 2)
+# +
+FIRST_NUMBER = 2
+SECOND_NUMBER = 4
+THIRD_NUMBER = 3
 
-print(2 == 4)
-print(2 != 4)
+print(FIRST_NUMBER == SECOND_NUMBER)
+print(FIRST_NUMBER != SECOND_NUMBER)
+print(SECOND_NUMBER > FIRST_NUMBER and FIRST_NUMBER != THIRD_NUMBER)
+# -
 
 print(4 > 2 and 2 != 3)
 print(4 < 2 or 2 == 2)
