@@ -1,12 +1,17 @@
 """Iterators and Generators."""
 
-for i in [1,2,3]:
-    print(i)
+# +
+from collections.abc import Iterator
+from itertools import chain, count, cycle
 
-iter([1,2,3])
+for i in [1, 2, 3]:
+    print(i)
+# -
+
+iter([1, 2, 3])
 
 # +
-iterable_object = [1,2,3]
+iterable_object = [1, 2, 3]
 
 iterator = iter(iterable_object)
 print(iterator)
@@ -22,106 +27,105 @@ for iterator in iterable_object:
 
 # +
 iterable_object = [1, 2, 3]
- 
+
 iterator_a = iter(iterable_object)
 iterator_b = iter(iterable_object)
- 
-print(f'A: {next(iterator_a)}')
-print(f'A: {next(iterator_a)}')
-print(f'A: {next(iterator_a)}')
-print(f'B: {next(iterator_b)}')
+
+print(f"A: {next(iterator_a)}")
+print(f"A: {next(iterator_a)}")
+print(f"A: {next(iterator_a)}")
+print(f"B: {next(iterator_b)}")
 # -
 
 iterable_object
 
-print(f'A: {next(iterator_a)}')
+print(f"A: {next(iterator_a)}")
 
 list(iterator_a), list(iterator_b)
 
-for s in set([1,1,2,3]):
-  print(s)
+for s in {1, 1, 2, 3}:
+    print(s)
 
 # +
 iterator_c = iter(iterable_object)
- 
+
 for i in iterator_c:
-  print(i)
-  break
- 
+    print(i)
+    break
+
 for j in iterator_c:
-  print(j)
+    print(j)
 # -
 
 zip(iterable_object, iterable_object)
 
-
 # +
 iterator_tuple = zip(iterable_object, iterable_object)
- 
+
 print(next(iterator_tuple))
 print(next(iterator_tuple))
 print(next(iterator_tuple))
 # -
 
 for i in zip(iterable_object, iterable_object):
-  print(i)
+    print(i)
 
 
 class Square:
-  def __init__(self, seq):
-    self._seq = seq
-    self._idx = 0
- 
-  def __iter__(self):
-    return self
- 
-  def __next__(self):
-    if self._idx < len(self._seq):
-      square = self._seq[self._idx] ** 2
-      self._idx += 1
-      return square
-    else:
-      raise StopIteration
+    def __init__(self, seq):
+        self._seq = seq
+        self._idx = 0
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        if self._idx < len(self._seq):
+            square = self._seq[self._idx] ** 2
+            self._idx += 1
+            return square
+        else:
+            raise StopIteration
 
 
 class Square:
-  def __init__(self, seq):
-    self._seq = seq
-    self._idx = 0
- 
-  def __iter__(self):
-    return self
- 
-  def __next__(self):
-    if self._idx < len(self._seq):
-      square = self._seq[self._idx] ** 2
-      self._idx += 1
-      return square
-    else:
-      raise StopIteration
+    def __init__(self, seq):
+        self._seq = seq
+        self._idx = 0
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        if self._idx < len(self._seq):
+            square = self._seq[self._idx] ** 2
+            self._idx += 1
+            return square
+        else:
+            raise StopIteration
 
 
-square = Square([1,2,3,4,5])
+square = Square([1, 2, 3, 4, 5])
 square
 
 for s in square:
-  print(s)
+    print(s)
 
 
 class Counter:
-  def __init__(self, start = 3, stop = 9):
-    self._current = start - 1
-    self._stop = stop
- 
-  def __iter__(self):
-    return self
- 
-  def __next__(self):
-    self._current += 1
-    if self._current < self._stop:
-      return self._current
-    else:
-      raise StopIteration
+    def __init__(self, start=3, stop=9):
+        self._current = start - 1
+        self._stop = stop
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        self._current += 1
+        if self._current < self._stop:
+            return self._current
+        else:
+            raise StopIteration
 
 
 counter = Counter()
@@ -131,161 +135,142 @@ print(next(counter))
 print(next(counter))
 
 for c in counter:
-  print(c)
+    print(c)
 
-# +
-from collections.abc import Iterator
- 
+
 class Counter2(Iterator):
-  def __init__(self, start = 3, stop = 9):
-    self._current = start - 1
-    self._stop = stop
- 
-  def __next__(self):
-    self._current += 1
-    if self._current < self._stop:
-      return self._current
-    else:
-      raise StopIteration
+    def __init__(self, start=3, stop=9):
+        self._current = start - 1
+        self._stop = stop
 
+    def __next__(self):
+        self._current += 1
+        if self._current < self._stop:
+            return self._current
+        else:
+            raise StopIteration
 
-# -
 
 for c in Counter2():
-  print(c)
+    print(c)
 
 
 class FibIterator:
-  def __init__(self):
-    self._idx = 0
-    self._current = 0
-    self._next = 1
- 
-  def __iter__(self):
-    return self
- 
-  def __next__(self):
-    self._idx += 1
-    self._current, self._next = (self._next, self._current + self._next)
-    return self._current
+    def __init__(self):
+        self._idx = 0
+        self._current = 0
+        self._next = 1
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        self._idx += 1
+        self._current, self._next = (self._next, self._current + self._next)
+        return self._current
 
 
 # +
 limit = 10
- 
+
 for f in FibIterator():
-  print(f)
-  limit -= 1
-  if limit == 0:
-    break
+    print(f)
+    limit -= 1
+    if limit == 0:
+        break
 
 
 # -
 
+
 def sequence(n):
-  res = [x for x in range(1, n+1)]
-  return res
+    res = [x for x in range(1, n + 1)]
+    return res
 
 
 sequence(5)
 
 
 def sequence_gen(n):
-  for x in range(1, n+1):
-    yield x
+    yield from range(1, n + 1)
 
 
 sequence_gen(5)
 
 # +
 seq_5 = sequence_gen(5)
- 
+
 print(next(seq_5))
 print(next(seq_5))
 # -
 
 for i in seq_5:
-  print(i)
+    print(i)
 
 next(seq_5)
 
-(x for x in range(1, 5+1))
+(x for x in range(1, 5 + 1))
 
-list((x for x in range(1, 5+1)))
+list(x for x in range(1, 5 + 1))
 
-sum((x for x in range(1, 5+1)))
+sum(x for x in range(1, 5 + 1))
 
 # +
-from itertools import count
-
 natural_numbers = count(start=1, step=0.5)
- 
+
 for num in natural_numbers:
     print(num)
     if num == 2:
-      break
+        break
+# -
 
-# +
-
-list_ = ['A', 'B', 'C', 'D']
+list_ = ["A", "B", "C", "D"]
 for i in zip(count(), list_):
-  print(i)
+    print(i)
 
 
 # +
-
 def f(x):
-  return x**2+x-2
- 
+    return x**2 + x - 2
+
+
 f_x = map(f, count())
 next(f_x)
 # -
 
 for val in f_x:
-  print(val)
-  if val > 10:
-    break
+    print(val)
+    if val > 10:
+        break
 
 # +
-from itertools import cycle
-
-list_ = [1,2,3]
+list_ = [1, 2, 3]
 iterator = cycle(list_)
- 
+
 limit = 5
 for i in iterator:
-  print(i)
-  limit -= 1
-  if limit == 0:
-    break
+    print(i)
+    limit -= 1
+    if limit == 0:
+        break
 
 # +
-string = 'Python'
+string = "Python"
 iterator = cycle(string)
- 
+
 limit = 10
 for i in iterator:
-  print(i)
-  limit -= 1
-  if limit == 0:
-    break
-
-# +
-from itertools import chain
-
-iterator = chain(['abc', 'd','e','f'], 'abc', [1,2,3])
-iterator
+    print(i)
+    limit -= 1
+    if limit == 0:
+        break
 # -
+
+iterator = chain(["abc", "d", "e", "f"], "abc", [1, 2, 3])
+iterator
 
 list(iterator)
 
-# +
+list(chain.from_iterable(["abc", "def"]))
 
-list(chain.from_iterable(['abc', 'def']))
-
-# +
-
-sum(chain.from_iterable([[1, 2, 3],[4, 5, 6],[7, 8, 9]]))
-# -
-
-
+sum(chain.from_iterable([[1, 2, 3], [4, 5, 6], [7, 8, 9]]))
