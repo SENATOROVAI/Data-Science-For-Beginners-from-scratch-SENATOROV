@@ -17,6 +17,7 @@
 
 
 # Улучшения курсов
+- Улучшил описание статьи, дельта Х [простая регрессия](https://stepik.org/lesson/1734634/step/3?unit=1758544), [пулл](https://github.com/SENATOROVAI/Normal-equations-scalar-form-solver-simple-linear-regression-course/pull/14), спасибо [Toleranzy](https://github.com/Toleranzy)
 - Добавлен скрин с дискуссиями в регламент взаимодействия в курсах, спасибо [iVenok](https://github.com/iVenok) 
 - Опечатка в курсе по [множественной регрессии](https://stepik.org/lesson/1792642/step/10?auth=login&unit=1818331), некорректная формулировка, спасибо [rizespbya](https://github.com/rizespbya)
 - неправильно раскрывается (X@θ).T [множественной регрессии](https://stepik.org/lesson/1792813/step/1?discussion=12716622&unit=1818503), [ишьюс](https://github.com/SENATOROVAI/multy-linear-regression-stepik/issues/1), спасибо [rizespbya](https://github.com/rizespbya)
