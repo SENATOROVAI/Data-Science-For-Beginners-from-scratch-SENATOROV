@@ -197,3 +197,4 @@ This repository is designed for:
 ⭐ If this project helps you — give it a star!
 
 Ссылка на Telegram-канал Руслана: https://t.me/RuslanSenatorov
+Ссылка на второй канал: https://t.me/SENATOROVAI
