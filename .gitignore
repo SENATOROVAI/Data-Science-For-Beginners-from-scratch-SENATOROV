@@ -333,3 +333,6 @@ coverage/
 
 /Math/calculus/theory
 /Math/school_theory
+tests/quiz/quiz.ipynb
+quiz.ipynb
+quiz.py
