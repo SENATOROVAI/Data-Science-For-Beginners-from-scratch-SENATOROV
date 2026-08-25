@@ -1,3 +1,7 @@
+# Data-Science-For-Beginners-from-scratch-SENATOROV
+Командный репозиторий.
+## 📢 Community  
+Join our Telegram channel: https://t.me/RuslanSenatorov
 # Улучшения репозитория
 - Улучшен [ишьюс ревью](https://github.com/SENATOROVAI/intro/issues/5), [обновлены пункты 1.7, 3.2](https://github.com/SENATOROVAI/intro/issues/13), спасибо [rizespbya](https://github.com/rizespbya)
 - Улучшен [ишьюс ревью](https://github.com/SENATOROVAI/intro/issues/5), [обновлены пункты 5.5-5.6](https://github.com/SENATOROVAI/intro/issues/12), спасибо [lessWronger](https://github.com/lessWronger) 
