@@ -193,3 +193,17 @@ This repository is designed for:
 ---
 
 ⭐ If this project helps you — give it a star!
+Founder & CEO
+Hello everyone! 👋
+My name is Ali.
+Role at SENATOROVAI: Student — I complete homework, submit reports, and work with instructors.
+English level: Basic (A1–A2)
+How I found SENATOROVAI: YouTube
+Background: No prior experience in Data Science or data analytics yet.
+Learning goal: Master the Data Science profession, gain practical skills, and build a career in this field.
+Country: Kazakhstan, Almaty
+Hobbies: Outdoor activities, nature trips, extreme activities.
+Ссылки:
+• GitHub: https://github.com/qwheel
+• Kaggle: https://www.kaggle.com/alizhantleuov
+• ODS.AI: https://ods.ai/users/xc574512892f7
