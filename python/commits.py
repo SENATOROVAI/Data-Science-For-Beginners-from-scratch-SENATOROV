@@ -27,4 +27,8 @@
 #
 # git commit -m "fix: correct number rounding"
 #
+# 3. Добавление новой функциональности:
+# Допустим, вы реализовали новую функцию generateReport в проекте. Сделайте фиктивный коммит с типом feat, отражающий добавление этой функциональности
+#
+# git commit -m "feat: add generateReport function"
 #
