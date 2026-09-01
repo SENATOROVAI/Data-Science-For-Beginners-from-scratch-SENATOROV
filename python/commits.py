@@ -32,3 +32,8 @@
 #
 # git commit -m "feat: add generateReport function"
 #
+# 4. Модификация формата кода или стилей:
+# Представьте, что вы поправили отступы и форматирование во всём проекте, не меняя логики кода. Сделайте фиктивный коммит с типом style
+#
+# git commit -m "style: indents and code formatting"
+#
