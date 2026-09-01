@@ -17,6 +17,7 @@
 
 
 # Улучшения курсов
+- Улучшил описание статьи, дельта Х [простая регрессия](https://stepik.org/lesson/1734634/step/3?unit=1758544), [пулл](https://github.com/SENATOROVAI/Normal-equations-scalar-form-solver-simple-linear-regression-course/pull/14), спасибо [Toleranzy](https://github.com/Toleranzy)
 - Добавлен скрин с дискуссиями в регламент взаимодействия в курсах, спасибо [iVenok](https://github.com/iVenok) 
 - Опечатка в курсе по [множественной регрессии](https://stepik.org/lesson/1792642/step/10?auth=login&unit=1818331), некорректная формулировка, спасибо [rizespbya](https://github.com/rizespbya)
 - неправильно раскрывается (X@θ).T [множественной регрессии](https://stepik.org/lesson/1792813/step/1?discussion=12716622&unit=1818503), [ишьюс](https://github.com/SENATOROVAI/multy-linear-regression-stepik/issues/1), спасибо [rizespbya](https://github.com/rizespbya)
@@ -31,6 +32,7 @@
 - Нет V^T в итоговой записи и у 2 айгенвелью 3 компонента без "-" [SVD](https://stepik.org/lesson/1832067/step/1?unit=1857101),[ишьюс](https://github.com/SENATOROVAI/svd-stepik/issues/1), спасибо [rizespbya](https://github.com/rizespbya)
 - Неправильно посчитан вектор u1 [SVD](https://stepik.org/lesson/1863989/step/2?unit=1889127),[ишьюс](https://github.com/SENATOROVAI/svd-stepik/issues/2), спасибо [Svetankova](https://github.com/Svetankova)
 - Матрица сигма не mxn [SVD](https://stepik.org/lesson/1865202/step/1?auth=login&unit=1890345),[ишьюс](https://github.com/SENATOROVAI/svd-stepik/issues/3), спасибо [Svetankova](https://github.com/Svetankova)
+- Уточнение в задании response:numpy, pandas, , python-dateutil, pytz, six, tzdata в курсе по [линтерам](https://www.udemy.com/course/python-opensource-git/learn/quiz/7695835#reviews), спасибо [AmadeyML](https://github.com/AmadeyM111)
 - Опечатка "автоматически" в курсе по [линтерам](https://stepik.org/lesson/1711770/step/13?unit=1735194), спасибо [dshilin](https://github.com/dshilin)
 - Обновление названия репозитория в курсе по [линтерам](https://stepik.org/lesson/1711770/step/13?unit=1735194), [ишьюс](https://github.com/SENATOROVAI/python-open-source-standards-course/issues/15), спасибо [iVenok](https://github.com/iVenok)
 - Внедрение контейнера UBUNTU в курс по [линтерам](https://stepik.org/lesson/1719986/step/1?unit=1743519), [ишьюс](https://github.com/SENATOROVAI/python-from-zero-to-open-source-stepik/issues/3), спасибо [stokato](https://github.com/stokato/)
