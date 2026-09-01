@@ -43,3 +43,6 @@
 #
 # git commit -m "docs: add/edit func documentation"
 #
+# Сделайте фиктивный коммит с типом test, добавляющий тесты для этой же функции.
+#
+# git commit -m "test: add tests for func"
