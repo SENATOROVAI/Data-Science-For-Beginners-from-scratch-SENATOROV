@@ -37,3 +37,9 @@
 #
 # git commit -m "style: indents and code formatting"
 #
+# 5. Документация и тестирование:
+#
+# Сделайте фиктивный коммит с типом docs, добавляющий или улучшающий документацию для вашей новой функции.
+#
+# git commit -m "docs: add/edit func documentation"
+#
