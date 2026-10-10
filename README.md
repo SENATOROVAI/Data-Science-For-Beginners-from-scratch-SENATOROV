@@ -45,6 +45,8 @@
 - Опечатка в слове "константа", курс [GD](https://stepik.org/lesson/1829077/step/13?unit=1855099), [ишьюс](https://github.com/SENATOROVAI/multy-linear-regression-gradient-descent-stepik/issues/2), спасибо [Lookmir](https://github.com/Lookmir)
 - Опечатка в слове "ортогонализации", курс [QR](https://stepik.org/lesson/1880356/step/3?unit=1905773), [ишьюс](https://github.com/SENATOROVAI/qr-stepik/issues/1), спасибо [svetlana-s88](https://github.com/svetlana-s88)
 - Старая ссылка на репозиторий в курсе по [линтерам](https://stepik.org/lesson/1711926/step/6?unit=1735359), спасибо [solik220-bit](https://github.com/solik220-bit)
+- Опечатка "физический"→"физически" в курсе по [множественной регрессии](https://stepik.org/lesson/1792642/step/4), [ишьюс](https://github.com/SENATOROVAI/senatorovai-lab-support/issues/13), [коммит](https://github.com/SENATOROVAI/senatorovai-lab/commit/f74f2064a8bd90801cc8fb38e0b5c21fa5a8ee80), спасибо [Nieams](https://github.com/Nieams)
+- Правильно выполненные задания не всегда отмечались зелёным в прогрессе курса, курс по [множественной регрессии](https://stepik.org/lesson/1792642/step/9), [ишьюс](https://github.com/SENATOROVAI/senatorovai-lab-support/issues/14), [коммит 1](https://github.com/SENATOROVAI/senatorovai-lab/commit/25bbb49dcecd3a1d9fa4f7082dc9e00a6ab33e32), [коммит 2](https://github.com/SENATOROVAI/senatorovai-lab/commit/bf0cd95d71f8af52918da1d18968accbe524c030), спасибо [Nieams](https://github.com/Nieams)
 
 # Улучшение организации
 - Обновление интро,внедрение раздела о нас, договора, средства коммуникации, спасибо [ViktorVinogradov89](https://github.com/ViktorVinogradov89)
