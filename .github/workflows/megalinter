@@ -1,0 +1,2 @@
+- name: MegaLinter
+  uses: oxsecurity/megalinter@v9.5.0
